@@ -4,7 +4,7 @@ import { VitePWA } from 'vite-plugin-pwa'
 
 export default defineConfig(({ command }) => ({
   // Local dev serves from root; production builds target the GitHub Pages subpath
-  base: command === 'build' ? '/seafood-sifu/' : '/',
+  base: command === 'build' ? '/Seafood-sifu/' : '/',
   plugins: [
     react(),
     VitePWA({
@@ -18,8 +18,8 @@ export default defineConfig(({ command }) => ({
         theme_color: '#0f4c5c',
         background_color: '#f3f7f7',
         display: 'standalone',
-        scope: '/seafood-sifu/',
-        start_url: '/seafood-sifu/',
+        scope: '/Seafood-sifu/',
+        start_url: '/Seafood-sifu/',
         icons: [
           {
             src: 'pwa-192x192.png',
