@@ -35,7 +35,7 @@
     "difficulty": "Medium",
     "prepTimeMinutes": 45,
     "description": "A sour-spicy tamarind curry built on a fragrant rempah, perfect for firm red fish, batang steaks or a meaty fish head. Tangy, rich and made for rice.",
-    "seafoodIds": ["mangrove-red-snapper", "spanish-mackerel", "orange-spotted-grouper", "golden-snapper", "asian-seabass", "indian-mackerel"],
+    "seafoodIds": ["mangrove-red-snapper", "spanish-mackerel", "orange-spotted-grouper", "golden-snapper", "asian-seabass", "indian-mackerel", "yellowfin-tuna", "black-pomfret", "catfish"],
     "ingredients": [
       { "name": "Firm fish steaks or fish head", "amount": "600 g" },
       { "name": "Tamarind pulp, soaked in 400 ml water and strained", "amount": "2 tbsp" },
@@ -90,7 +90,7 @@
     "difficulty": "Easy",
     "prepTimeMinutes": 30,
     "description": "A light, milky-sweet broth with tender slices of batang, tomato, lettuce and a hit of ginger — a hawker-centre comfort bowl you can make cleaner at home.",
-    "seafoodIds": ["spanish-mackerel", "threadfin"],
+    "seafoodIds": ["spanish-mackerel", "threadfin", "atlantic-salmon", "snakehead", "threadfin-bream"],
     "ingredients": [
       { "name": "Batang (Spanish mackerel) fillet, thinly sliced", "amount": "300 g" },
       { "name": "Ginger, sliced", "amount": "1 thumb" },
@@ -200,7 +200,7 @@
     "difficulty": "Medium",
     "prepTimeMinutes": 30,
     "description": "Crisp prawns tumbled in a buttery, curry-leaf-scented cereal crumble with a whisper of chilli — sweet, savoury and impossible to stop eating.",
-    "seafoodIds": ["giant-tiger-prawn", "banana-prawn", "mantis-shrimp"],
+    "seafoodIds": ["giant-tiger-prawn", "banana-prawn", "mantis-shrimp", "whiteleg-prawn", "giant-freshwater-prawn", "slipper-lobster"],
     "ingredients": [
       { "name": "Prawns, shell on, feelers trimmed", "amount": "500 g" },
       { "name": "Nestum / oat cereal", "amount": "1 cup" },
@@ -226,7 +226,7 @@
     "difficulty": "Medium",
     "prepTimeMinutes": 30,
     "description": "Golden, grainy salted-egg sauce foaming with butter and curry leaves, clinging to crisp shell-on prawns. Rich, creamy and addictive.",
-    "seafoodIds": ["giant-tiger-prawn"],
+    "seafoodIds": ["giant-tiger-prawn", "whiteleg-prawn", "giant-freshwater-prawn", "slipper-lobster", "spiny-lobster"],
     "ingredients": [
       { "name": "Tiger prawns, shell on", "amount": "500 g" },
       { "name": "Salted egg yolks, steamed and mashed", "amount": "4" },
@@ -334,7 +334,7 @@
     "difficulty": "Easy",
     "prepTimeMinutes": 20,
     "description": "Clams (or mussels and razor clams) steamed open in a fragrant broth of garlic, ginger, Chinese wine and glass noodles that soak up all the sweetness.",
-    "seafoodIds": ["manila-clam", "green-mussel", "razor-clam"],
+    "seafoodIds": ["manila-clam", "green-mussel", "razor-clam", "scallop"],
     "ingredients": [
       { "name": "Lala clams (or mussels / razor clams), purged", "amount": "600 g" },
       { "name": "Glass noodles (tang hoon), soaked", "amount": "1 bundle" },
@@ -388,7 +388,7 @@
     "difficulty": "Easy",
     "prepTimeMinutes": 25,
     "description": "Banquet-style steamed grouper (or snapper, seabass) with hot oil, ginger, spring onion and a sweet superior soy — the gold standard for a sweet, gelatinous fish.",
-    "seafoodIds": ["orange-spotted-grouper", "golden-snapper", "asian-seabass", "nile-tilapia"],
+    "seafoodIds": ["orange-spotted-grouper", "golden-snapper", "asian-seabass", "nile-tilapia", "atlantic-salmon", "snakehead", "marble-goby"],
     "ingredients": [
       { "name": "Whole grouper or thick fillet", "amount": "500–700 g" },
       { "name": "Ginger, sliced and julienned", "amount": "1 large thumb" },
@@ -415,7 +415,7 @@
     "difficulty": "Easy",
     "prepTimeMinutes": 25,
     "description": "Small whole fish — ikan kuning, kembong or milkfish — marinated in turmeric and fried shatteringly crisp, served with a sharp sambal. Bones and all.",
-    "seafoodIds": ["yellowstripe-scad", "indian-mackerel", "milkfish"],
+    "seafoodIds": ["yellowstripe-scad", "indian-mackerel", "milkfish", "black-pomfret", "wolf-herring", "sardine", "anchovy", "threadfin-bream", "bigeye-scad", "catfish"],
     "ingredients": [
       { "name": "Small whole fish, scaled and gutted", "amount": "500 g" },
       { "name": "Ground turmeric", "amount": "1 tsp" },
@@ -432,5 +432,59 @@
     ],
     "tip": "Dry fish and hot oil are everything — moisture makes the oil spit and the skin go soft instead of crisp.",
     "inspiredBy": "The nasi-lemak-style fried fish found at Malay stalls everywhere."
+  },
+  {
+    "id": "braised-abalone-sea-cucumber",
+    "name": "Braised Abalone & Sea Cucumber",
+    "cuisine": "Cantonese",
+    "difficulty": "Hard",
+    "prepTimeMinutes": 90,
+    "description": "A Chinese New Year treasure dish: tender abalone and silky sea cucumber braised with mushrooms in a glossy superior-stock gravy. Prized for texture and prosperity.",
+    "seafoodIds": ["abalone", "sea-cucumber", "scallop"],
+    "ingredients": [
+      { "name": "Fresh or canned abalone", "amount": "6 pieces" },
+      { "name": "Sea cucumber, pre-soaked and softened", "amount": "300 g" },
+      { "name": "Dried shiitake mushrooms, soaked", "amount": "8" },
+      { "name": "Superior chicken/pork stock", "amount": "600 ml" },
+      { "name": "Oyster sauce and dark soy", "amount": "2 tbsp / 1 tsp" },
+      { "name": "Shaoxing wine", "amount": "2 tbsp" },
+      { "name": "Ginger and spring onion", "amount": "a few slices" },
+      { "name": "Cornflour slurry", "amount": "to thicken" }
+    ],
+    "steps": [
+      "Cut the softened sea cucumber into thick pieces. Blanch with ginger and wine to remove any odour, then drain.",
+      "Fry the ginger and spring onion in oil, add the mushrooms, then pour in the stock, oyster sauce, dark soy and wine.",
+      "Add the sea cucumber and simmer gently, covered, for 45–60 minutes until silky and the gravy reduces.",
+      "Add the abalone in the last 10 minutes (fresh) or just to warm through (canned) — long cooking toughens it.",
+      "Thicken the gravy with a little slurry until glossy, and serve, often over blanched greens."
+    ],
+    "tip": "Buy sea cucumber pre-soaked from the dried-goods stall — rehydrating it from scratch takes 2–3 days of daily water changes.",
+    "inspiredBy": "A classic Cantonese banquet / Chinese New Year braise."
+  },
+  {
+    "id": "gong-gong-chilli",
+    "name": "Boiled Gong Gong with Chilli Dip",
+    "cuisine": "Singaporean Zi Char",
+    "difficulty": "Easy",
+    "prepTimeMinutes": 15,
+    "description": "The ultimate beer-time nibble: dog conch simply boiled with aromatics, the sweet meat twisted out with a toothpick and dunked in a tangy chilli sauce.",
+    "seafoodIds": ["gong-gong"],
+    "ingredients": [
+      { "name": "Gong gong (dog conch), scrubbed", "amount": "500 g" },
+      { "name": "Ginger, smashed", "amount": "2 slices" },
+      { "name": "Lemongrass, bruised", "amount": "1 stalk" },
+      { "name": "Salt", "amount": "1 tsp" },
+      { "name": "Red chilli, garlic, calamansi, sugar (blended dip)", "amount": "for the sauce" },
+      { "name": "Toothpicks", "amount": "to serve" }
+    ],
+    "steps": [
+      "Soak the gong gong in salted water for 30 minutes so they purge sand, then scrub the shells.",
+      "Bring a pot of water with ginger, lemongrass and salt to a rolling boil.",
+      "Tip in the gong gong and boil 4–6 minutes, until the meat just sets — don't overboil or it turns rubbery.",
+      "Meanwhile blend the chilli, garlic, sugar and calamansi into a tangy dipping sauce.",
+      "Serve hot in a bowl with toothpicks — twist the meat out of each shell and dip."
+    ],
+    "tip": "Twist, don't yank — turning the toothpick as you pull keeps the curl of meat whole instead of snapping off the tip.",
+    "inspiredBy": "The classic zi char / seafood-stall gong gong."
   }
 ]

@@ -219,6 +219,75 @@ export default function SeafoodIllustration({ shape, className }: Props) {
           <path d="M168 56c8-2 16 0 20 6-6 4-14 4-20 2zM34 96c-8 2-16 0-20-6 6-4 14-4 20-2z" fill="#e7d3a6" />
         </svg>
       )
+    case 'eel':
+      return (
+        <svg {...common}>
+          <path
+            d="M22 64c14-18 30 8 48-2 16-9 22-30 44-30 26 0 40 22 64 22 8 0 16-3 22-9-2 14-14 22-26 22-22 0-36-20-60-20-18 0-26 18-44 26-20 9-38-6-48 10-4-8-2-14 6-18l-6 6c0-2 0-4 0-7z"
+            fill="#5a6b57"
+          />
+          <path d="M158 47c8 0 16-3 22-9-2 9-8 15-16 17z" fill="#3f4d3d" />
+          <circle cx="40" cy="62" r="4" fill="#1f2a1d" />
+        </svg>
+      )
+    case 'lobster':
+      return (
+        <svg {...common}>
+          <path d="M96 36c0 26-6 50-12 64-4 10-12 16-22 16-4 0-6-4-4-8 8-12 12-30 12-50 0-12 12-30 26-22z" fill="#d2452f" />
+          <path d="M88 116c-2 8-2 14 2 20M104 112c0 8 2 14 6 18M118 104c4 6 8 12 14 14" stroke="#b5331f" strokeWidth="4" fill="none" strokeLinecap="round" />
+          <g fill="#e0573f">
+            <path d="M96 40c-10-14-28-18-44-10 8 4 10 12 8 20 12-6 26-4 36-10z" />
+            <path d="M40 30c-10 0-16 8-14 18 6-4 12-4 18 0-2-8-2-14-4-18zM40 30c10-2 18 4 20 14-8-2-14 0-18 6-2-8-4-14-2-20z" />
+          </g>
+          <path d="M70 40c-16-8-30-2-40 10M70 48c-18-4-32 4-40 16" stroke="#b5331f" strokeWidth="2.5" fill="none" />
+          <circle cx="86" cy="44" r="4" fill="#5e160c" />
+        </svg>
+      )
+    case 'scallop':
+      return (
+        <svg {...common}>
+          <path d="M100 38c40 0 64 24 70 56 2 8-4 14-12 14H42c-8 0-14-6-12-14 6-32 30-56 70-56z" fill="#f0b27a" />
+          <g stroke="#cf8a4f" strokeWidth="3" fill="none">
+            <path d="M100 44v62M78 48l-18 56M122 48l18 56M58 60l-22 44M142 60l22 44" />
+          </g>
+          <path d="M82 38c4-8 32-8 36 0-6 6-30 6-36 0z" fill="#e29a5c" />
+        </svg>
+      )
+    case 'abalone':
+      return (
+        <svg {...common}>
+          <path d="M40 78c-6-26 14-50 44-54 30-4 58 12 64 38 4 18-8 34-30 38-34 6-72-2-78-22z" fill="#7e8b7c" />
+          <path d="M52 74c-2-18 12-34 36-37 22-2 42 8 47 26-26-14-62-12-83 11z" fill="#aeb8a8" />
+          <g fill="#5d6a5c">
+            <circle cx="70" cy="52" r="3" />
+            <circle cx="84" cy="48" r="3" />
+            <circle cx="98" cy="46" r="3" />
+            <circle cx="112" cy="47" r="3" />
+            <circle cx="125" cy="51" r="3" />
+          </g>
+        </svg>
+      )
+    case 'seacucumber':
+      return (
+        <svg {...common}>
+          <path d="M30 78c-6-12 4-24 20-26l108-14c16-2 26 8 24 22-2 12-14 18-28 18l-100 14c-12 2-20-4-24-14z" fill="#6b5544" />
+          <g fill="#4f3e30">
+            <circle cx="56" cy="68" r="4" /><circle cx="78" cy="64" r="4" /><circle cx="100" cy="61" r="4" />
+            <circle cx="122" cy="58" r="4" /><circle cx="144" cy="55" r="4" />
+            <circle cx="66" cy="80" r="3.5" /><circle cx="90" cy="77" r="3.5" /><circle cx="114" cy="73" r="3.5" />
+          </g>
+        </svg>
+      )
+    case 'conch':
+      return (
+        <svg {...common}>
+          <path d="M118 36c26 0 44 20 44 44 0 24-20 40-46 40-30 0-54-18-54-42 0-8 4-14 12-14 6 0 10 4 10 12 0 12 12 20 26 20 14 0 24-10 24-24 0-16-12-26-30-26-6 0-10-4-10-10s4-10 12-10c2 0 5 0 8 0z" fill="#e8c9a0" />
+          <path d="M70 96c-14 4-26 14-34 28 14-2 26 2 34 10 2-14 2-28 0-38z" fill="#d9b483" />
+          <g stroke="#bd9763" strokeWidth="2.5" fill="none" opacity="0.7">
+            <path d="M96 52c14-6 30-4 42 6M92 66c14-4 28 0 38 10" />
+          </g>
+        </svg>
+      )
     case 'fish':
     default:
       return (
