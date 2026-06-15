@@ -486,5 +486,666 @@
     ],
     "tip": "Twist, don't yank — turning the toothpick as you pull keeps the curl of meat whole instead of snapping off the tip.",
     "inspiredBy": "The classic zi char / seafood-stall gong gong."
+  },
+  {
+    "id": "fish-head-curry",
+    "name": "Singapore Fish Head Curry",
+    "cuisine": "Singaporean / Indian",
+    "difficulty": "Medium",
+    "prepTimeMinutes": 55,
+    "description": "A big red snapper head simmered in a tangy, spiced coconut-and-tamarind curry with okra and brinjal — a multicultural Singapore icon, rich and made for rice.",
+    "seafoodIds": ["mangrove-red-snapper", "malabar-snapper", "orange-spotted-grouper", "golden-snapper"],
+    "ingredients": [
+      { "name": "Red snapper or grouper head, halved", "amount": "1 large (700 g+)" },
+      { "name": "Fish curry powder", "amount": "4 tbsp" },
+      { "name": "Coconut milk", "amount": "300 ml" },
+      { "name": "Tamarind pulp in 300 ml water, strained", "amount": "2 tbsp" },
+      { "name": "Shallots, garlic, ginger (blended)", "amount": "8 / 4 / 1 thumb" },
+      { "name": "Curry leaves and mustard seeds", "amount": "2 sprigs / 1 tsp" },
+      { "name": "Ladyfingers, brinjal, tomatoes", "amount": "a handful each" },
+      { "name": "Salt and sugar", "amount": "to taste" }
+    ],
+    "steps": [
+      "Mix the curry powder with a little water into a paste. Splutter the mustard seeds and curry leaves in oil, then fry the blended aromatics until fragrant.",
+      "Add the curry paste and cook until the oil separates, 5–8 minutes.",
+      "Pour in the tamarind water, bring to a simmer, then add the vegetables.",
+      "Slide in the fish head, spoon gravy over it, cover and simmer 12–15 minutes until cooked.",
+      "Stir in the coconut milk, warm through without boiling hard, balance with salt and sugar, and rest 10 minutes before serving."
+    ],
+    "tip": "Add the coconut milk at the end and don't boil it hard, or it splits and turns grainy.",
+    "inspiredBy": "Singapore's beloved fish head curry, where South Indian and Chinese cooking meet."
+  },
+  {
+    "id": "otah-otah",
+    "name": "Otah-Otah (Grilled Spiced Fishcake)",
+    "cuisine": "Peranakan",
+    "difficulty": "Medium",
+    "prepTimeMinutes": 50,
+    "description": "Smooth spiced fish paste bound with coconut and egg, wrapped in banana leaf and grilled until just set — smoky, fragrant and a little spicy.",
+    "seafoodIds": ["indian-mackerel", "croaker", "wolf-herring", "spanish-mackerel"],
+    "ingredients": [
+      { "name": "Fish fillet (mackerel/croaker), minced", "amount": "400 g" },
+      { "name": "Coconut milk", "amount": "150 ml" },
+      { "name": "Egg", "amount": "1" },
+      { "name": "Rempah (chilli, shallot, lemongrass, galangal, turmeric, candlenut)", "amount": "4 tbsp" },
+      { "name": "Daun kadok / laksa leaf, shredded", "amount": "a handful" },
+      { "name": "Sugar and salt", "amount": "to taste" },
+      { "name": "Banana leaves, softened", "amount": "for wrapping" }
+    ],
+    "steps": [
+      "Fry the rempah in a little oil until fragrant and cooled.",
+      "Mix the minced fish with the rempah, coconut milk, egg, sugar and salt into a smooth, slightly sticky paste.",
+      "Fold in the shredded leaves.",
+      "Spoon onto banana leaf rectangles, fold into parcels and secure.",
+      "Grill or pan-roast the parcels over medium heat, turning, until the leaf chars and the filling is just set, about 8–10 minutes."
+    ],
+    "tip": "Don't overfill the parcels — a thin layer cooks evenly and stays moist; thick ones turn dense.",
+    "inspiredBy": "Nonya otah, a staple of Peranakan and hawker cooking."
+  },
+  {
+    "id": "homemade-fishballs",
+    "name": "Homemade Bouncy Fishballs",
+    "cuisine": "Teochew",
+    "difficulty": "Medium",
+    "prepTimeMinutes": 40,
+    "description": "Springy, snow-white fishballs made the old way — scraped fish flesh beaten with iced water and salt until bouncy, then poached. The heart of fishball noodles.",
+    "seafoodIds": ["wolf-herring", "lizardfish", "threadfin-bream", "yellowstripe-scad"],
+    "ingredients": [
+      { "name": "Fish flesh (wolf herring/yellowtail), scraped clean of bone", "amount": "400 g" },
+      { "name": "Ice water", "amount": "120 ml" },
+      { "name": "Salt", "amount": "1 tsp" },
+      { "name": "Cornflour or potato starch", "amount": "1.5 tbsp" },
+      { "name": "Sugar and white pepper", "amount": "to taste" }
+    ],
+    "steps": [
+      "Scrape the fish flesh off the skin and bones; you want clean, pale meat.",
+      "Add the salt and beat with iced water a little at a time, stirring vigorously in one direction until tacky and pale.",
+      "Mix in the starch, sugar and pepper, then throw the paste against the bowl repeatedly until very springy.",
+      "Wet your hand, squeeze paste through your fist and scoop balls with a spoon into a pot of barely simmering water.",
+      "Poach until they float and feel firm, then lift out. Use in soup or noodles."
+    ],
+    "tip": "Keep everything cold and beat in one direction — that's what develops the signature bounce.",
+    "inspiredBy": "Traditional Teochew fishball-making."
+  },
+  {
+    "id": "hae-mee-prawn-noodle",
+    "name": "Hae Mee (Prawn Noodle Soup)",
+    "cuisine": "Singaporean",
+    "difficulty": "Hard",
+    "prepTimeMinutes": 90,
+    "description": "A deep, sweet-savoury prawn-and-pork broth built from prawn heads and shells, ladled over noodles with poached prawns and a spoon of fried shallots and chilli.",
+    "seafoodIds": ["giant-freshwater-prawn", "giant-tiger-prawn", "banana-prawn"],
+    "ingredients": [
+      { "name": "Large prawns, heads and shells reserved", "amount": "500 g" },
+      { "name": "Pork ribs", "amount": "400 g" },
+      { "name": "Rock sugar and dark soy", "amount": "1 tbsp / 1 tsp" },
+      { "name": "Dried sole fish (ti poh), toasted (optional)", "amount": "1 piece" },
+      { "name": "Yellow noodles and bee hoon", "amount": "to serve" },
+      { "name": "Bean sprouts and kangkong", "amount": "to serve" },
+      { "name": "Fried shallots and sambal chilli", "amount": "to serve" }
+    ],
+    "steps": [
+      "Fry the prawn heads and shells hard in oil, crushing them, until deep orange and fragrant — this is the soul of the broth.",
+      "Add water and the pork ribs and simmer 1 hour; strain out the shells, pressing to extract every drop.",
+      "Season the stock with rock sugar, dark soy, salt and the toasted sole fish.",
+      "Poach the peeled prawns in the stock just until they curl; remove.",
+      "Blanch noodles and vegetables, top with prawns and broth, and finish with fried shallots and sambal."
+    ],
+    "tip": "Really fry the prawn shells until they smell toasty before adding water — that roasting is where the colour and depth come from.",
+    "inspiredBy": "Singapore hawker prawn mee."
+  },
+  {
+    "id": "laksa",
+    "name": "Katong Laksa",
+    "cuisine": "Peranakan",
+    "difficulty": "Hard",
+    "prepTimeMinutes": 75,
+    "description": "Rich, coconutty laksa gravy fragrant with dried shrimp and laksa leaf, over thick rice noodles with prawns, cockles, fishcake and a swirl of sambal.",
+    "seafoodIds": ["blood-cockle", "banana-prawn", "whiteleg-prawn"],
+    "ingredients": [
+      { "name": "Prawns, shells reserved for stock", "amount": "300 g" },
+      { "name": "Blood cockles, blanched", "amount": "150 g" },
+      { "name": "Laksa rempah (dried chilli, shallot, lemongrass, galangal, candlenut, belacan, dried shrimp)", "amount": "5 tbsp" },
+      { "name": "Coconut milk", "amount": "400 ml" },
+      { "name": "Laksa leaf (daun kesum)", "amount": "a handful" },
+      { "name": "Thick rice vermicelli", "amount": "to serve" },
+      { "name": "Fishcake, beansprouts, tau pok", "amount": "to serve" }
+    ],
+    "steps": [
+      "Make a prawn-shell stock; peel and poach the prawns and set aside.",
+      "Fry the rempah in oil until the oil splits and it smells deep and fragrant, 10 minutes.",
+      "Add the stock and simmer, then stir in the coconut milk and laksa leaf; don't boil hard.",
+      "Season with salt and a little sugar to balance.",
+      "Pile noodles, prawns, cockles, fishcake, tau pok and beansprouts in a bowl, ladle over the gravy, and top with sambal."
+    ],
+    "tip": "Blanch the cockles for just 15 seconds and add at the end — laksa gravy is hot enough to finish them.",
+    "inspiredBy": "Singapore's Peranakan laksa lemak."
+  },
+  {
+    "id": "char-kway-teow",
+    "name": "Char Kway Teow",
+    "cuisine": "Singaporean",
+    "difficulty": "Medium",
+    "prepTimeMinutes": 25,
+    "description": "Smoky wok-fried flat rice noodles with prawns, cockles, egg, beansprouts and chives in a dark sweet-savoury sauce — all about the 'wok hei'.",
+    "seafoodIds": ["blood-cockle", "greasyback-prawn"],
+    "ingredients": [
+      { "name": "Fresh flat rice noodles (kway teow)", "amount": "300 g" },
+      { "name": "Small prawns, peeled", "amount": "120 g" },
+      { "name": "Blood cockles, shelled", "amount": "80 g" },
+      { "name": "Egg", "amount": "2" },
+      { "name": "Chinese sausage (lap cheong), sliced", "amount": "1" },
+      { "name": "Beansprouts and garlic chives", "amount": "a handful each" },
+      { "name": "Dark soy, light soy, sweet sauce, sambal", "amount": "to taste" }
+    ],
+    "steps": [
+      "Get the wok blazing hot. Fry garlic and lap cheong, then the prawns briefly.",
+      "Add the noodles and the dark/light/sweet sauces; toss hard so they char slightly.",
+      "Push aside, scramble the egg, then fold everything together.",
+      "Add beansprouts, chives, cockles and a spoon of sambal; toss for 20–30 seconds and serve at once.",
+      "Cook in single portions — a crowded wok steams instead of chars."
+    ],
+    "tip": "Add the cockles last, off the heat almost — residual heat warms them without making them rubbery.",
+    "inspiredBy": "The hawker classic, prized for its smoky wok hei."
+  },
+  {
+    "id": "white-pepper-prawns",
+    "name": "White Pepper Prawns",
+    "cuisine": "Singaporean Zi Char",
+    "difficulty": "Easy",
+    "prepTimeMinutes": 20,
+    "description": "Shell-on prawns wok-tossed in a peppery, buttery, savoury sauce with loads of freshly ground white pepper — simple, punchy and addictive.",
+    "seafoodIds": ["greasyback-prawn", "banana-prawn", "whiteleg-prawn"],
+    "ingredients": [
+      { "name": "Prawns, shell on, feelers trimmed", "amount": "500 g" },
+      { "name": "Freshly ground white pepper", "amount": "1.5 tbsp" },
+      { "name": "Butter", "amount": "40 g" },
+      { "name": "Garlic, minced", "amount": "3 cloves" },
+      { "name": "Oyster sauce and light soy", "amount": "1 tbsp / 1 tsp" },
+      { "name": "Sugar", "amount": "1 tsp" },
+      { "name": "Spring onion", "amount": "to garnish" }
+    ],
+    "steps": [
+      "Pat the prawns dry and sear in a little oil until they just turn orange; remove.",
+      "Melt the butter, fry the garlic, then add a generous amount of white pepper and let it toast briefly.",
+      "Add oyster sauce, soy and sugar to form a glossy sauce.",
+      "Return the prawns and toss until coated and cooked through.",
+      "Finish with spring onion and even more pepper to taste."
+    ],
+    "tip": "Grind the white pepper fresh and use more than feels sensible — it's the whole point of the dish.",
+    "inspiredBy": "A zi char white pepper crab/prawn treatment."
+  },
+  {
+    "id": "teochew-cold-cuttlefish",
+    "name": "Teochew Cold Cuttlefish",
+    "cuisine": "Teochew",
+    "difficulty": "Easy",
+    "prepTimeMinutes": 20,
+    "description": "Cuttlefish poached to tender perfection, chilled and sliced, served cold with a tangy garlic-chilli or sweet-sour dip — a clean, refined Teochew classic.",
+    "seafoodIds": ["pharaoh-cuttlefish", "broadclub-cuttlefish"],
+    "ingredients": [
+      { "name": "Cuttlefish, cleaned", "amount": "500 g" },
+      { "name": "Ginger and spring onion", "amount": "a few slices" },
+      { "name": "Shaoxing wine", "amount": "1 tbsp" },
+      { "name": "Garlic, red chilli, sugar, vinegar (for the dip)", "amount": "for the sauce" },
+      { "name": "Ice water bath", "amount": "as needed" }
+    ],
+    "steps": [
+      "Bring water with ginger, spring onion and wine to a gentle simmer.",
+      "Poach the whole cleaned cuttlefish gently — do not boil hard — until just opaque and tender, 3–5 minutes depending on size.",
+      "Plunge immediately into iced water to stop cooking and keep it tender and crisp.",
+      "Slice thinly across the body.",
+      "Blend the dip and serve the cold cuttlefish with it."
+    ],
+    "tip": "Gentle poach then ice bath — a hard boil is what turns cuttlefish into rubber bands.",
+    "inspiredBy": "A Teochew braised/cold seafood platter staple."
+  },
+  {
+    "id": "sotong-kang-kong",
+    "name": "Sotong Kang Kong (with Hae Ko)",
+    "cuisine": "Singaporean",
+    "difficulty": "Easy",
+    "prepTimeMinutes": 20,
+    "description": "Blanched squid and water spinach dressed in a sweet, dark prawn-paste (hae ko) sauce with sesame and chilli — a beloved cold-ish hawker plate.",
+    "seafoodIds": ["bigfin-reef-squid", "pencil-squid", "pharaoh-cuttlefish"],
+    "ingredients": [
+      { "name": "Squid, cleaned and scored", "amount": "300 g" },
+      { "name": "Kang kong (water spinach)", "amount": "1 bunch" },
+      { "name": "Hae ko (thick prawn paste)", "amount": "2 tbsp" },
+      { "name": "Sugar and lime juice", "amount": "to taste" },
+      { "name": "Toasted sesame seeds and sambal", "amount": "to serve" },
+      { "name": "You tiao (dough fritter), optional", "amount": "to serve" }
+    ],
+    "steps": [
+      "Blanch the kang kong briefly until just tender-crisp, then drain and cool.",
+      "Blanch the scored squid for under a minute, until it just curls; drain.",
+      "Loosen the hae ko with a little hot water, sugar and lime into a pourable sauce.",
+      "Arrange squid and kang kong, pour over the sauce, and top with sesame, sambal and you tiao pieces.",
+      "Toss gently just before eating."
+    ],
+    "tip": "Score the squid and blanch it for seconds, not minutes — it should be silky, not chewy.",
+    "inspiredBy": "The hawker sotong kang kong with prawn paste."
+  },
+  {
+    "id": "ikan-bakar",
+    "name": "Ikan Bakar (Grilled Sambal Fish)",
+    "cuisine": "Malay",
+    "difficulty": "Medium",
+    "prepTimeMinutes": 40,
+    "description": "Whole fish or fillets lacquered with sambal, wrapped in banana leaf and grilled over charcoal until smoky and caramelised — the smell of the night market.",
+    "seafoodIds": ["whip-stingray", "catfish", "sea-catfish", "bigeye-scad", "yellowstripe-scad"],
+    "ingredients": [
+      { "name": "Whole fish or fish/stingray fillets", "amount": "600 g" },
+      { "name": "Sambal (chilli, shallot, garlic, belacan, tamarind, sugar)", "amount": "5 tbsp" },
+      { "name": "Turmeric and salt", "amount": "1 tsp each" },
+      { "name": "Banana leaf", "amount": "for wrapping" },
+      { "name": "Calamansi, sliced shallots, cucumber", "amount": "to serve" }
+    ],
+    "steps": [
+      "Rub the fish with turmeric and salt; rest 15 minutes.",
+      "Slather generously with sambal on both sides (and inside, if whole).",
+      "Wrap in softened banana leaf, or lay on the leaf on the grill.",
+      "Grill over medium charcoal, turning once, until the leaf chars and the fish flakes, 6–10 minutes a side.",
+      "Serve with calamansi, raw shallots and cucumber."
+    ],
+    "tip": "Oil the banana leaf and the grill so the skin doesn't stick and tear when you turn it.",
+    "inspiredBy": "Malay-style grilled fish from pasar malam stalls."
+  },
+  {
+    "id": "assam-pedas",
+    "name": "Assam Pedas (Sour & Spicy Fish)",
+    "cuisine": "Malay",
+    "difficulty": "Medium",
+    "prepTimeMinutes": 40,
+    "description": "A fiery, intensely sour tamarind gravy — no coconut — perfumed with torch ginger and laksa leaf, perfect for oily fish like mackerel and sardine.",
+    "seafoodIds": ["indian-mackerel", "sardine", "kawakawa", "black-pomfret"],
+    "ingredients": [
+      { "name": "Fish (mackerel/sardine), cleaned", "amount": "500 g" },
+      { "name": "Tamarind pulp in 400 ml water, strained", "amount": "3 tbsp" },
+      { "name": "Rempah (dried chilli, shallot, garlic, belacan)", "amount": "4 tbsp" },
+      { "name": "Torch ginger bud (bunga kantan), sliced", "amount": "1" },
+      { "name": "Laksa leaf (daun kesum)", "amount": "a sprig" },
+      { "name": "Ladyfingers and tomato", "amount": "a handful" },
+      { "name": "Sugar and salt", "amount": "to taste" }
+    ],
+    "steps": [
+      "Fry the rempah in oil until the oil splits and darkens.",
+      "Add the tamarind water and bring to a simmer; season to a bold sour-spicy balance.",
+      "Add the torch ginger, laksa leaf, okra and tomato; simmer a few minutes.",
+      "Slide in the fish and simmer gently until just cooked, basting rather than stirring.",
+      "Rest briefly and serve — the gravy should be punchy, sour and red."
+    ],
+    "tip": "Torch ginger and laksa leaf are what make assam pedas taste like assam pedas — don't skip them.",
+    "inspiredBy": "Malay assam pedas, a sour-spicy cousin of fish curry."
+  },
+  {
+    "id": "unagi-kabayaki",
+    "name": "Grilled Glazed Eel (Unagi Kabayaki)",
+    "cuisine": "Japanese",
+    "difficulty": "Medium",
+    "prepTimeMinutes": 35,
+    "description": "Butterflied eel grilled and repeatedly brushed with a sweet-savoury soy glaze until lacquered and caramelised, served over rice as unadon.",
+    "seafoodIds": ["freshwater-eel"],
+    "ingredients": [
+      { "name": "Eel, cleaned and butterflied (ask the fishmonger)", "amount": "1 (400 g)" },
+      { "name": "Soy sauce", "amount": "4 tbsp" },
+      { "name": "Mirin", "amount": "4 tbsp" },
+      { "name": "Sake", "amount": "2 tbsp" },
+      { "name": "Sugar", "amount": "2 tbsp" },
+      { "name": "Steamed rice and sansho pepper", "amount": "to serve" }
+    ],
+    "steps": [
+      "Simmer the soy, mirin, sake and sugar into a glossy tare (glaze) that coats a spoon.",
+      "Steam or par-grill the eel skin-side first to render some fat and firm it up.",
+      "Grill flesh-side, brushing on the tare and turning, building up several caramelised layers.",
+      "Slice and lay over hot rice, brush with more glaze.",
+      "Finish with a pinch of sansho pepper."
+    ],
+    "tip": "Build the glaze in thin layers, letting each set on the grill — one thick coat just slides off and burns.",
+    "inspiredBy": "Japanese unagi no kabayaki, popular across Singapore."
+  },
+  {
+    "id": "jellyfish-salad",
+    "name": "Chilled Jellyfish Salad",
+    "cuisine": "Chinese",
+    "difficulty": "Easy",
+    "prepTimeMinutes": 25,
+    "description": "Crunchy shredded jellyfish dressed in sesame oil, vinegar and a little chilli — a cooling, textural appetiser found on every zi char and banquet table.",
+    "seafoodIds": ["jellyfish"],
+    "ingredients": [
+      { "name": "Salted jellyfish, shredded", "amount": "300 g" },
+      { "name": "Sesame oil", "amount": "1.5 tbsp" },
+      { "name": "Rice vinegar and light soy", "amount": "2 tbsp / 1 tbsp" },
+      { "name": "Sugar", "amount": "1 tsp" },
+      { "name": "Garlic and red chilli, minced", "amount": "to taste" },
+      { "name": "Toasted sesame seeds and coriander", "amount": "to garnish" }
+    ],
+    "steps": [
+      "Rinse the salted jellyfish thoroughly and soak in cold water 1–2 hours, changing the water, to remove salt.",
+      "Blanch very briefly in warm (not boiling) water — it will curl — then plunge into iced water; it stays crunchy.",
+      "Drain very well and squeeze out excess water.",
+      "Toss with sesame oil, vinegar, soy, sugar, garlic and chilli.",
+      "Chill, then garnish with sesame and coriander before serving."
+    ],
+    "tip": "Use warm water, never boiling — boiling shrinks jellyfish to nothing and kills the crunch.",
+    "inspiredBy": "The classic Chinese cold jellyfish appetiser."
+  },
+  {
+    "id": "salmon-beehoon-soup",
+    "name": "Salmon Fish Head Bee Hoon Soup",
+    "cuisine": "Singaporean",
+    "difficulty": "Easy",
+    "prepTimeMinutes": 30,
+    "description": "A milky, comforting bowl of bee hoon in a sweet ginger broth with crispy fried salmon head pieces, tomato and greens — a modern hawker favourite.",
+    "seafoodIds": ["atlantic-salmon"],
+    "ingredients": [
+      { "name": "Salmon head and collar, in pieces", "amount": "500 g" },
+      { "name": "Ginger, sliced", "amount": "1 thumb" },
+      { "name": "Tomato and lettuce", "amount": "1 / a handful" },
+      { "name": "Anchovy or chicken stock", "amount": "800 ml" },
+      { "name": "Evaporated milk", "amount": "4 tbsp" },
+      { "name": "Bee hoon (rice vermicelli)", "amount": "to serve" },
+      { "name": "Salt, white pepper, Hua Diao wine", "amount": "to taste" }
+    ],
+    "steps": [
+      "Pat the salmon pieces dry and pan-fry or deep-fry until golden and crisp; set aside.",
+      "Simmer the stock with ginger and a splash of wine; add the tomato.",
+      "Add the bee hoon and greens and cook until tender.",
+      "Stir in the evaporated milk and season; warm without boiling hard.",
+      "Add the fried salmon pieces just before serving so they keep some crispness."
+    ],
+    "tip": "Fry the salmon head first and add it at the end — it flavours the bowl while staying crisp at the edges.",
+    "inspiredBy": "The popular salmon fish head bee hoon found in coffeeshops."
+  },
+  {
+    "id": "teriyaki-salmon",
+    "name": "Pan-Seared Teriyaki Salmon",
+    "cuisine": "Japanese",
+    "difficulty": "Easy",
+    "prepTimeMinutes": 20,
+    "description": "Crisp-skinned salmon (or cobia/amberjack) glazed in a quick homemade teriyaki — weeknight-fast, with a glossy sweet-savoury finish.",
+    "seafoodIds": ["atlantic-salmon", "cobia", "amberjack"],
+    "ingredients": [
+      { "name": "Salmon fillets, skin on", "amount": "2 (150 g each)" },
+      { "name": "Soy sauce", "amount": "3 tbsp" },
+      { "name": "Mirin", "amount": "2 tbsp" },
+      { "name": "Sake", "amount": "1 tbsp" },
+      { "name": "Sugar or honey", "amount": "1 tbsp" },
+      { "name": "Neutral oil", "amount": "1 tbsp" },
+      { "name": "Toasted sesame and spring onion", "amount": "to garnish" }
+    ],
+    "steps": [
+      "Pat the fillets very dry and season lightly with salt.",
+      "Sear skin-side down in oil over medium heat, pressing gently, until the skin is crisp; flip and cook to just done.",
+      "Mix soy, mirin, sake and sugar; pour into the pan.",
+      "Let it bubble and reduce, spooning the glaze over the fish until glossy.",
+      "Garnish with sesame and spring onion; serve with rice."
+    ],
+    "tip": "Dry skin + medium heat + patience = crackly skin; moving the fish too early tears it.",
+    "inspiredBy": "Home-style Japanese teriyaki."
+  },
+  {
+    "id": "tom-yum-seafood",
+    "name": "Tom Yum Talay (Seafood)",
+    "cuisine": "Thai",
+    "difficulty": "Medium",
+    "prepTimeMinutes": 30,
+    "description": "A hot-and-sour Thai broth loud with lemongrass, galangal, lime and chilli, full of prawns, squid and mussels — clear or creamy, your call.",
+    "seafoodIds": ["giant-tiger-prawn", "bigfin-reef-squid", "green-mussel", "asian-seabass"],
+    "ingredients": [
+      { "name": "Mixed seafood (prawns, squid, mussels, fish)", "amount": "500 g" },
+      { "name": "Lemongrass, bruised", "amount": "2 stalks" },
+      { "name": "Galangal, sliced", "amount": "5 slices" },
+      { "name": "Kaffir lime leaves", "amount": "4" },
+      { "name": "Bird's eye chilli, crushed", "amount": "to taste" },
+      { "name": "Nam prik pao (chilli jam) and fish sauce", "amount": "2 tbsp each" },
+      { "name": "Lime juice, sugar, mushrooms, tomato", "amount": "to taste" }
+    ],
+    "steps": [
+      "Simmer stock or water with lemongrass, galangal and lime leaves to infuse, 10 minutes.",
+      "Stir in the nam prik pao, mushrooms and tomato.",
+      "Add the seafood in order of cooking time — fish and prawns first, squid and mussels last.",
+      "As soon as everything is just cooked, turn off the heat.",
+      "Season off the heat with fish sauce, lime juice and a little sugar; taste for hot-sour-salty balance."
+    ],
+    "tip": "Add the lime juice at the very end off the heat — boiling it makes the soup bitter instead of bright.",
+    "inspiredBy": "Thai tom yum, a Southeast Asian seafood staple."
+  },
+  {
+    "id": "thai-steamed-lime-fish",
+    "name": "Thai Steamed Fish with Lime & Garlic",
+    "cuisine": "Thai",
+    "difficulty": "Easy",
+    "prepTimeMinutes": 30,
+    "description": "A whole seabass steamed and drenched in a punchy, sour-spicy garlic-lime-chilli sauce (pla neung manao) — bright, fiery and incredibly fresh-tasting.",
+    "seafoodIds": ["asian-seabass", "mangrove-red-snapper", "golden-snapper"],
+    "ingredients": [
+      { "name": "Whole seabass or snapper, cleaned and scored", "amount": "1 (600 g)" },
+      { "name": "Garlic", "amount": "8 cloves" },
+      { "name": "Bird's eye chilli", "amount": "5" },
+      { "name": "Lime juice", "amount": "4 tbsp" },
+      { "name": "Fish sauce", "amount": "2 tbsp" },
+      { "name": "Sugar", "amount": "1 tbsp" },
+      { "name": "Coriander and lemongrass", "amount": "to garnish" }
+    ],
+    "steps": [
+      "Lay the fish on a plate over a bed of lemongrass and steam over high heat until just opaque, 10–12 minutes.",
+      "Pound or blend the garlic and chilli; mix with lime juice, fish sauce and sugar into a sharp dressing.",
+      "Pour off the steaming liquid.",
+      "Drench the hot fish in the lime-garlic sauce.",
+      "Shower with coriander and serve immediately."
+    ],
+    "tip": "Make the sauce fierce and tangy — it mellows the second it hits the hot fish.",
+    "inspiredBy": "Thai pla neung manao."
+  },
+  {
+    "id": "drunken-prawns",
+    "name": "Drunken Prawns",
+    "cuisine": "Chinese",
+    "difficulty": "Easy",
+    "prepTimeMinutes": 20,
+    "description": "Live prawns flash-cooked in an aromatic broth heady with Chinese wine and wolfberries — sweet, clean and warming, the wine doing the heavy lifting.",
+    "seafoodIds": ["giant-tiger-prawn", "giant-freshwater-prawn"],
+    "ingredients": [
+      { "name": "Large fresh prawns", "amount": "500 g" },
+      { "name": "Hua Diao or Shaoxing wine", "amount": "150 ml" },
+      { "name": "Ginger, sliced", "amount": "1 thumb" },
+      { "name": "Goji berries (wolfberries)", "amount": "1 tbsp" },
+      { "name": "Red dates", "amount": "4" },
+      { "name": "Chicken stock", "amount": "300 ml" },
+      { "name": "Salt and sugar", "amount": "to taste" }
+    ],
+    "steps": [
+      "Simmer the stock with ginger, goji berries and red dates for 10 minutes to build an aromatic base.",
+      "Season lightly with salt and a little sugar.",
+      "Add the prawns and most of the wine; cover and cook just until the prawns curl and turn orange.",
+      "Splash in the remaining wine at the end for fragrance.",
+      "Serve in the broth, hot."
+    ],
+    "tip": "Add a final hit of wine right at the end — cooking it all off loses the fragrant 'drunken' aroma.",
+    "inspiredBy": "The classic Chinese drunken prawns."
+  },
+  {
+    "id": "salt-pepper-squid",
+    "name": "Salt & Pepper Squid",
+    "cuisine": "Singaporean Zi Char",
+    "difficulty": "Easy",
+    "prepTimeMinutes": 25,
+    "description": "Crisp, light-battered squid tossed with fried garlic, chilli and a salty-peppery seasoning — the ultimate beer snack, shatteringly crunchy.",
+    "seafoodIds": ["bigfin-reef-squid", "pencil-squid", "baby-octopus"],
+    "ingredients": [
+      { "name": "Squid, cleaned and cut into rings", "amount": "400 g" },
+      { "name": "Cornflour and rice flour", "amount": "4 tbsp / 2 tbsp" },
+      { "name": "White pepper and salt", "amount": "1 tsp each" },
+      { "name": "Garlic and red chilli, chopped", "amount": "to taste" },
+      { "name": "Spring onion", "amount": "2 stalks" },
+      { "name": "Oil for frying", "amount": "for deep-frying" }
+    ],
+    "steps": [
+      "Pat the squid very dry and toss in the combined flours with half the salt and pepper.",
+      "Deep-fry in hot oil in batches for about 1–2 minutes until pale gold and crisp; drain.",
+      "In a little oil, fry the garlic, chilli and spring onion until fragrant.",
+      "Return the squid, sprinkle the remaining salt and pepper, and toss quickly.",
+      "Serve immediately while crunchy, with lime."
+    ],
+    "tip": "Fry hot and fast — squid only needs a minute or two; longer and the tender rings turn to rubber under the crust.",
+    "inspiredBy": "Cantonese salt-and-pepper seafood."
+  },
+  {
+    "id": "xo-scallops",
+    "name": "Stir-fried Scallops in XO Sauce",
+    "cuisine": "Cantonese",
+    "difficulty": "Medium",
+    "prepTimeMinutes": 20,
+    "description": "Plump scallops seared and tossed with spicy, umami-rich XO sauce, asparagus and garlic — a quick, restaurant-style stir-fry.",
+    "seafoodIds": ["scallop"],
+    "ingredients": [
+      { "name": "Scallops, patted dry", "amount": "300 g" },
+      { "name": "XO sauce", "amount": "2 tbsp" },
+      { "name": "Garlic and ginger, minced", "amount": "1 tbsp each" },
+      { "name": "Asparagus or sugar snap peas", "amount": "150 g" },
+      { "name": "Shaoxing wine", "amount": "1 tbsp" },
+      { "name": "Light soy and sugar", "amount": "to taste" },
+      { "name": "Cornflour slurry", "amount": "a little" }
+    ],
+    "steps": [
+      "Sear the dried scallops hard in a hot pan for under a minute a side, just to colour; remove.",
+      "Stir-fry the garlic, ginger and vegetables until bright and crisp-tender.",
+      "Add the XO sauce and wine and let it sizzle.",
+      "Return the scallops, season with soy and sugar, and thicken lightly with slurry.",
+      "Toss to coat and serve at once — the scallops should stay just-set and juicy."
+    ],
+    "tip": "Dry the scallops well and sear briefly — overcooked scallops shrink and turn tough and watery.",
+    "inspiredBy": "Cantonese XO sauce seafood stir-fry."
+  },
+  {
+    "id": "mussels-coconut-curry",
+    "name": "Mussels in Coconut Curry",
+    "cuisine": "Southeast Asian",
+    "difficulty": "Easy",
+    "prepTimeMinutes": 25,
+    "description": "Mussels steamed open in a fragrant lemongrass-coconut curry broth with chilli and lime — quick, generous and made for dunking bread or rice.",
+    "seafoodIds": ["green-mussel", "blue-mussel"],
+    "ingredients": [
+      { "name": "Mussels, scrubbed and debearded", "amount": "1 kg" },
+      { "name": "Coconut milk", "amount": "300 ml" },
+      { "name": "Red curry paste", "amount": "2 tbsp" },
+      { "name": "Lemongrass and kaffir lime leaf", "amount": "1 stalk / 3 leaves" },
+      { "name": "Garlic and shallot", "amount": "to taste" },
+      { "name": "Fish sauce, sugar, lime", "amount": "to taste" },
+      { "name": "Thai basil and chilli", "amount": "to garnish" }
+    ],
+    "steps": [
+      "Fry the garlic, shallot and curry paste in oil until fragrant.",
+      "Add the lemongrass, lime leaf and coconut milk; bring to a simmer and season with fish sauce and sugar.",
+      "Tip in the mussels, cover, and steam 4–5 minutes until they open.",
+      "Discard any that stay shut; squeeze in lime.",
+      "Scatter with Thai basil and chilli and serve with the broth."
+    ],
+    "tip": "Discard mussels that don't open after cooking — and any that won't close when tapped raw beforehand.",
+    "inspiredBy": "A Southeast Asian coconut-curry mussel pot."
+  },
+  {
+    "id": "steamed-egg-seafood",
+    "name": "Silky Steamed Egg with Seafood",
+    "cuisine": "Chinese",
+    "difficulty": "Easy",
+    "prepTimeMinutes": 25,
+    "description": "Custard-smooth savoury steamed egg studded with clams and prawns — gentle, comforting and a brilliant way to show off very fresh shellfish.",
+    "seafoodIds": ["manila-clam", "hard-clam", "greasyback-prawn"],
+    "ingredients": [
+      { "name": "Eggs", "amount": "3" },
+      { "name": "Warm stock or water (1.5x the egg volume)", "amount": "300 ml" },
+      { "name": "Small clams, purged", "amount": "150 g" },
+      { "name": "Small prawns, peeled", "amount": "80 g" },
+      { "name": "Light soy and sesame oil", "amount": "to finish" },
+      { "name": "Spring onion", "amount": "to garnish" }
+    ],
+    "steps": [
+      "Beat the eggs with the warm stock and a pinch of salt; skim off bubbles and strain for silkiness.",
+      "Pour into a shallow dish, cover with foil or a plate.",
+      "Steam over low-medium heat 8 minutes until just set but still wobbly.",
+      "Tuck in the clams and prawns and steam another 4–5 minutes until they open and the egg is set.",
+      "Finish with soy, sesame oil and spring onion."
+    ],
+    "tip": "Gentle heat and a covered dish keep the surface mirror-smooth — high heat makes it pockmarked and watery.",
+    "inspiredBy": "Chinese steamed egg (zheng shui dan)."
+  },
+  {
+    "id": "sambal-petai-prawns",
+    "name": "Sambal Petai Prawns",
+    "cuisine": "Malay",
+    "difficulty": "Medium",
+    "prepTimeMinutes": 30,
+    "description": "Prawns and pungent 'stink beans' (petai) tossed in a sweet, spicy tamarind sambal — bold, funky and a serious rice-killer.",
+    "seafoodIds": ["banana-prawn", "whiteleg-prawn", "giant-tiger-prawn"],
+    "ingredients": [
+      { "name": "Prawns, shelled (tails on)", "amount": "400 g" },
+      { "name": "Petai (stink beans), halved", "amount": "1 cup" },
+      { "name": "Sambal (dried chilli, shallot, garlic, belacan)", "amount": "4 tbsp" },
+      { "name": "Tamarind paste", "amount": "1 tbsp" },
+      { "name": "Sugar", "amount": "1 tbsp" },
+      { "name": "Onion, sliced", "amount": "1" }
+    ],
+    "steps": [
+      "Fry the sambal in oil over medium heat until the oil splits and it smells deep, 8–10 minutes.",
+      "Stir in the tamarind paste and sugar; taste for a sweet-sour-spicy balance.",
+      "Add the onion and petai and stir-fry until the beans are bright and just tender.",
+      "Turn up the heat, add the prawns and toss until they curl and turn orange.",
+      "Serve hot with steamed rice."
+    ],
+    "tip": "Add the prawns last and cook briefly — they only need a couple of minutes once the sambal is ready.",
+    "inspiredBy": "The Malay sambal udang petai."
+  },
+  {
+    "id": "uni-don",
+    "name": "Sea Urchin Rice Bowl (Uni Don)",
+    "cuisine": "Japanese",
+    "difficulty": "Easy",
+    "prepTimeMinutes": 10,
+    "description": "Fresh sea urchin roe laid over warm seasoned rice with nori and a touch of soy and wasabi — minimal effort, maximum luxury, all about the uni.",
+    "seafoodIds": ["sea-urchin"],
+    "ingredients": [
+      { "name": "Fresh sea urchin roe (uni)", "amount": "60 – 100 g" },
+      { "name": "Warm sushi rice", "amount": "1 bowl" },
+      { "name": "Toasted nori, shredded", "amount": "1 sheet" },
+      { "name": "Light soy sauce", "amount": "to taste" },
+      { "name": "Wasabi", "amount": "a little" },
+      { "name": "Shiso leaf or spring onion", "amount": "to garnish" }
+    ],
+    "steps": [
+      "Season warm rice lightly with a splash of sushi vinegar if you like, and let it cool to just-warm.",
+      "Scatter shredded nori over the rice.",
+      "Gently lay the uni lobes on top, taking care not to break them.",
+      "Add a tiny dab of wasabi and a few drops of soy — go light, the uni is the star.",
+      "Garnish and eat immediately while the uni is cold and the rice is warm."
+    ],
+    "tip": "Use the freshest, firmest uni you can get and dress it barely — soy should whisper, not shout.",
+    "inspiredBy": "Japanese uni donburi."
+  },
+  {
+    "id": "geoduck-sashimi-hotpot",
+    "name": "Geoduck Sashimi & Hotpot",
+    "cuisine": "Chinese",
+    "difficulty": "Medium",
+    "prepTimeMinutes": 25,
+    "description": "A two-ways treatment for a single prized clam: the crunchy siphon sliced raw for sashimi, the rest swished in a clear hotpot — a banquet showpiece.",
+    "seafoodIds": ["geoduck", "scallop"],
+    "ingredients": [
+      { "name": "Live geoduck", "amount": "1 (700 g – 1 kg)" },
+      { "name": "Ice water bath", "amount": "as needed" },
+      { "name": "Light clear stock (for hotpot)", "amount": "1 litre" },
+      { "name": "Ginger, spring onion, goji berries", "amount": "for the stock" },
+      { "name": "Soy, wasabi or vinegar-chilli dip", "amount": "to serve" }
+    ],
+    "steps": [
+      "Blanch the geoduck siphon for 10 seconds, then plunge into iced water and peel off the dark outer skin.",
+      "Slice the cleaned, crunchy siphon very thinly across for sashimi; arrange on ice.",
+      "Cut the body meat into bite-size pieces for the hotpot.",
+      "Simmer the clear stock with ginger, spring onion and goji berries.",
+      "Swish the body (and scallops) in the hot stock for seconds until just opaque; eat the sashimi with the dip."
+    ],
+    "tip": "The siphon's whole appeal is its crunch — for sashimi it's barely blanched and iced, never cooked through.",
+    "inspiredBy": "The classic Chinese restaurant way with elephant trunk clam."
   }
 ]
