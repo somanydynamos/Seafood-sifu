@@ -62,6 +62,25 @@ export const IUCN_META: Record<IucnCode, IucnMeta> = {
   },
 }
 
+/**
+ * Sort rank for conservation concern. Higher = more threatened.
+ * Data Deficient / Not Evaluated rank lowest so they don't masquerade as
+ * either "safe" or "threatened" — the badge still shows their real status.
+ */
+const IUCN_SORT_RANK: Record<IucnCode, number> = {
+  CR: 5,
+  EN: 4,
+  VU: 3,
+  NT: 2,
+  LC: 1,
+  DD: 0,
+  NE: 0,
+}
+
+export function iucnSortRank(code: IucnCode): number {
+  return IUCN_SORT_RANK[code]
+}
+
 export function iucnRedlistUrl(scientificName: string): string {
   // Strip trailing "spp." and trim to the genus/species for a useful search
   const query = scientificName.replace(/\s*spp\.?$/i, '').trim()

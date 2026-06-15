@@ -62,6 +62,12 @@ export function getRecipesForSeafood(id: string): Recipe[] {
   return recipes.filter((r) => r.seafoodIds.includes(id))
 }
 
+/** Parse the lower bound of a price range string like "S$3.50 – S$6.00" → 3.5 */
+export function parsePriceLow(price: string): number {
+  const match = price.match(/([\d.]+)/)
+  return match ? parseFloat(match[1]) : 0
+}
+
 export function getSeafoodForRecipe(recipe: Recipe): Seafood[] {
   return recipe.seafoodIds
     .map((id) => seafoodById.get(id))
