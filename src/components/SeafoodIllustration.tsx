@@ -1,0 +1,237 @@
+interface Props {
+  shape: string
+  className?: string
+}
+
+/**
+ * Stylised, watercolour-flavoured SVG illustrations for each seafood type.
+ * Keyed by `illustrationKey` in the data. Falls back to a generic fish.
+ */
+export default function SeafoodIllustration({ shape, className }: Props) {
+  const common = {
+    className,
+    viewBox: '0 0 200 140',
+    xmlns: 'http://www.w3.org/2000/svg',
+    role: 'img' as const,
+  }
+
+  switch (shape) {
+    case 'pomfret':
+      return (
+        <svg {...common}>
+          <path
+            d="M96 20c40 0 70 26 70 50s-30 50-70 50c-30 0-58-20-66-44 22-2 22-10 0-12 8-24 36-44 66-44z"
+            fill="#cfe0e2"
+          />
+          <path d="M30 64c-6 0-6 12 0 12 12-1 14-11 0-12z" fill="#9bbfc2" />
+          <path d="M166 56l24-16-6 30 6 30-24-16z" fill="#7fa6a9" />
+          <circle cx="146" cy="56" r="5" fill="#0a3540" />
+          <path d="M150 86c10 4 18 4 26-2" stroke="#7fa6a9" strokeWidth="3" fill="none" />
+        </svg>
+      )
+    case 'mackerel':
+      return (
+        <svg {...common}>
+          <path
+            d="M30 70c20-30 70-40 120-30 18 4 30 14 36 30-6 16-18 26-36 30-50 10-100 0-120-30z"
+            fill="#9fc1d6"
+          />
+          <path d="M186 70l8-18 0 36z" fill="#5f7f95" />
+          <g stroke="#3d5d73" strokeWidth="3" fill="none">
+            <path d="M70 52c0 12 0 24 0 36" />
+            <path d="M92 50c0 13 0 27 0 40" />
+            <path d="M114 50c0 13 0 27 0 40" />
+            <path d="M136 52c0 12 0 24 0 36" />
+          </g>
+          <circle cx="48" cy="66" r="5" fill="#0a3540" />
+          <path d="M150 96l10 8 8-6M150 44l10-8 8 6" stroke="#5f7f95" strokeWidth="2.5" fill="none" />
+        </svg>
+      )
+    case 'snapper':
+      return (
+        <svg {...common}>
+          <path
+            d="M28 70c22-30 74-40 122-30 18 4 30 14 36 30-6 16-18 26-36 30-48 10-100 0-122-30z"
+            fill="#e3a08a"
+          />
+          <path d="M186 70l8-18 0 36z" fill="#c46b52" />
+          <path d="M60 42c12 4 20 16 22 28-14-2-22-14-22-28z" fill="#d98a72" />
+          <circle cx="48" cy="66" r="5.5" fill="#0a3540" />
+          <circle cx="120" cy="60" r="6" fill="#b85a42" opacity="0.5" />
+          <path d="M150 96c10 0 18-4 24-12M150 44c10 0 18 4 24 12" stroke="#c46b52" strokeWidth="2.5" fill="none" />
+        </svg>
+      )
+    case 'grouper':
+      return (
+        <svg {...common}>
+          <path
+            d="M26 72c24-32 70-42 120-34 22 4 36 16 42 34-6 18-20 30-42 34-50 8-96-2-120-34z"
+            fill="#9d9270"
+          />
+          <path d="M188 72l6-16 0 32z" fill="#6f6647" />
+          <g fill="#5f5638">
+            <circle cx="70" cy="58" r="4" />
+            <circle cx="96" cy="72" r="4.5" />
+            <circle cx="120" cy="58" r="4" />
+            <circle cx="138" cy="76" r="4" />
+            <circle cx="86" cy="92" r="4" />
+            <circle cx="120" cy="92" r="4.5" />
+          </g>
+          <circle cx="46" cy="66" r="6" fill="#0a3540" />
+          <path d="M40 80c10 6 22 6 32 0" stroke="#6f6647" strokeWidth="3" fill="none" />
+        </svg>
+      )
+    case 'scad':
+      return (
+        <svg {...common}>
+          <path
+            d="M34 70c24-22 76-28 118-20 16 3 26 11 32 20-6 9-16 17-32 20-42 8-94 2-118-20z"
+            fill="#cdd6dc"
+          />
+          <path d="M184 70l10-14 0 28z" fill="#9aa6ad" />
+          <path d="M40 70c40-8 96-8 138 0" stroke="#e9c34a" strokeWidth="6" fill="none" />
+          <circle cx="50" cy="66" r="5" fill="#0a3540" />
+        </svg>
+      )
+    case 'stingray':
+      return (
+        <svg {...common}>
+          <path
+            d="M100 28c40 0 78 20 90 42-30 6-54 22-66 42-8-14-16-22-24-22s-16 8-24 22c-12-20-36-36-66-42 12-22 50-42 90-42z"
+            fill="#b9a98c"
+          />
+          <path d="M100 110c0 0 30 14 60 8" stroke="#8c7d61" strokeWidth="4" fill="none" />
+          <circle cx="86" cy="56" r="4" fill="#5f5638" />
+          <circle cx="114" cy="56" r="4" fill="#5f5638" />
+          <path d="M70 70c8 30 52 30 60 0" stroke="#8c7d61" strokeWidth="2.5" fill="none" opacity="0.5" />
+        </svg>
+      )
+    case 'prawn':
+      return (
+        <svg {...common}>
+          <path
+            d="M150 40c-6 30-34 56-70 60-22 2-44-4-54-18 16 6 34 4 44-6-18 0-30-10-32-24 12 10 26 10 36 2-10-6-14-18-8-28 6 14 22 18 34 12 0 16 14 26 30 24 10-2 16-8 20-22z"
+            fill="#ef9f76"
+          />
+          <path d="M150 40c8-8 18-12 30-10-6 6-8 14-6 22-10-4-18-6-24-12z" fill="#e36414" />
+          <path d="M40 92c-10 6-16 16-14 26" stroke="#e36414" strokeWidth="3" fill="none" />
+          <path d="M48 98c-8 8-10 18-6 28M58 100c-4 10-2 20 4 28" stroke="#e36414" strokeWidth="2.5" fill="none" />
+          <circle cx="150" cy="42" r="4" fill="#7a2e08" />
+        </svg>
+      )
+    case 'crab':
+      return (
+        <svg {...common}>
+          <ellipse cx="100" cy="78" rx="48" ry="30" fill="#e07a4e" />
+          <path d="M64 60c-2-8-2-16 2-22M136 60c2-8 2-16-2-22" stroke="#c85a30" strokeWidth="6" fill="none" />
+          <g fill="#c85a30">
+            <path d="M52 70c-16-2-28 6-34 18 12 0 18 6 22 14 6-12 10-22 12-32z" />
+            <path d="M148 70c16-2 28 6 34 18-12 0-18 6-22 14-6-12-10-22-12-32z" />
+          </g>
+          <g stroke="#c85a30" strokeWidth="4" fill="none">
+            <path d="M60 92l-26 16M64 100l-22 20M140 92l26 16M136 100l22 20" />
+          </g>
+          <circle cx="88" cy="70" r="4" fill="#3a1404" />
+          <circle cx="112" cy="70" r="4" fill="#3a1404" />
+          <path d="M86 86c8 6 20 6 28 0" stroke="#a8431f" strokeWidth="3" fill="none" />
+        </svg>
+      )
+    case 'squid':
+      return (
+        <svg {...common}>
+          <path d="M100 14c20 0 32 18 32 44 0 20-6 38-12 50-4-8-8-8-12 0-4-8-8-8-12 0-6-12-12-30-12-50 0-26 12-44 28-44z" fill="#e7b7c4" />
+          <path d="M72 50c-10-6-16-2-18 6 8 0 12 4 14 10zM128 50c10-6 16-2 18 6-8 0-12 4-14 10z" fill="#d290a3" />
+          <g stroke="#d290a3" strokeWidth="4" fill="none" strokeLinecap="round">
+            <path d="M90 104c-4 12-8 20-6 30M100 106c0 12 0 20 0 30M110 104c4 12 8 20 6 30M82 100c-8 10-14 16-16 26M118 100c8 10 14 16 16 26" />
+          </g>
+          <circle cx="90" cy="58" r="4" fill="#7a3a4c" />
+          <circle cx="110" cy="58" r="4" fill="#7a3a4c" />
+        </svg>
+      )
+    case 'cuttlefish':
+      return (
+        <svg {...common}>
+          <ellipse cx="100" cy="56" rx="42" ry="36" fill="#d8c4a0" />
+          <path d="M58 56c-8 0-12 8-12 18s4 18 12 18M142 56c8 0 12 8 12 18s-4 18-12 18" stroke="#b59f74" strokeWidth="5" fill="none" />
+          <g stroke="#b59f74" strokeWidth="4" fill="none" strokeLinecap="round">
+            <path d="M86 90c-2 14-4 22-2 32M100 92c0 12 0 22 0 32M114 90c2 14 4 22 2 32M78 88c-6 10-10 18-12 28M122 88c6 10 10 18 12 28" />
+          </g>
+          <g fill="#8c7a52" opacity="0.5">
+            <path d="M70 40c20-6 40-6 60 0M70 52c20-6 40-6 60 0M74 64c18-4 34-4 52 0" stroke="#8c7a52" strokeWidth="2" fill="none" />
+          </g>
+          <circle cx="86" cy="50" r="4.5" fill="#3a3017" />
+          <circle cx="114" cy="50" r="4.5" fill="#3a3017" />
+        </svg>
+      )
+    case 'octopus':
+      return (
+        <svg {...common}>
+          <path d="M100 16c24 0 40 18 40 42 0 10-2 18-6 24 4 2 6 6 6 10 0 8-8 12-16 8-6 6-16 8-24 8s-18-2-24-8c-8 4-16 0-16-8 0-4 2-8 6-10-4-6-6-14-6-24 0-24 16-42 40-42z" fill="#d98a8a" />
+          <g stroke="#c46b6b" strokeWidth="5" fill="none" strokeLinecap="round">
+            <path d="M64 92c-14 4-24 14-26 28M80 100c-8 8-12 20-10 32M120 100c8 8 12 20 10 32M136 92c14 4 24 14 26 28M100 104c0 14 0 24 0 34" />
+          </g>
+          <circle cx="86" cy="52" r="5" fill="#5e2a2a" />
+          <circle cx="114" cy="52" r="5" fill="#5e2a2a" />
+        </svg>
+      )
+    case 'cockle':
+      return (
+        <svg {...common}>
+          <path d="M100 30c34 0 64 24 64 50 0 16-12 28-30 32-10-22-58-22-68 0-18-4-30-16-30-32 0-26 30-50 64-50z" fill="#cdbfae" />
+          <g stroke="#9a8b76" strokeWidth="3" fill="none">
+            <path d="M100 40v60M76 46l-14 50M124 46l14 50M58 64l-12 38M142 64l12 38" />
+          </g>
+          <path d="M70 110c10-16 50-16 60 0" fill="#b04a4a" opacity="0.6" />
+        </svg>
+      )
+    case 'mussel':
+      return (
+        <svg {...common}>
+          <path d="M40 50c30-18 90-18 120 18 6 8 4 18-6 26-26 20-78 22-104 4-16-12-22-36-10-48z" fill="#2f5d52" />
+          <path d="M48 54c28-14 80-14 106 16-24 16-72 18-96 2-10-7-14-12-10-18z" fill="#7bb39e" />
+          <path d="M150 70c8 0 14 4 16 12-8 2-14 0-18-4z" fill="#1f3f37" />
+        </svg>
+      )
+    case 'oyster':
+      return (
+        <svg {...common}>
+          <path d="M40 60c20-24 70-30 110-12 16 8 18 26 4 38-30 24-86 22-112-2-10-9-12-16-2-24z" fill="#bdbfb6" />
+          <path d="M52 62c22-16 64-20 96-6-26 16-72 18-96 6z" fill="#e6e3d4" />
+          <ellipse cx="108" cy="70" rx="22" ry="14" fill="#e8d3b0" />
+          <path d="M40 60c-6 4-8 12-4 20M150 84c8-2 14-8 14-16" stroke="#8f9187" strokeWidth="2.5" fill="none" />
+        </svg>
+      )
+    case 'clam':
+      return (
+        <svg {...common}>
+          <path d="M100 38c30 0 56 18 64 40-8 18-34 30-64 30s-56-12-64-30c8-22 34-40 64-40z" fill="#cbb78e" />
+          <g stroke="#9c8559" strokeWidth="2.5" fill="none" opacity="0.7">
+            <path d="M44 78c20-6 92-6 112 0M48 66c18-6 86-6 104 0M56 56c16-4 72-4 88 0" />
+          </g>
+          <path d="M100 38c0 0-2 35 0 70" stroke="#9c8559" strokeWidth="2" fill="none" opacity="0.5" />
+        </svg>
+      )
+    case 'razor':
+      return (
+        <svg {...common}>
+          <path d="M28 86c0-8 6-12 14-14l130-26c10-2 16 2 16 10s-6 14-16 16L42 98c-8 1-14-4-14-12z" fill="#c9a86a" />
+          <path d="M30 84l150-30" stroke="#a8854a" strokeWidth="2.5" fill="none" opacity="0.7" />
+          <path d="M168 56c8-2 16 0 20 6-6 4-14 4-20 2zM34 96c-8 2-16 0-20-6 6-4 14-4 20-2z" fill="#e7d3a6" />
+        </svg>
+      )
+    case 'fish':
+    default:
+      return (
+        <svg {...common}>
+          <path
+            d="M30 70c24-28 74-38 120-30 18 3 32 14 38 30-6 16-20 27-38 30-46 8-96-2-120-30z"
+            fill="#8fc0c9"
+          />
+          <path d="M188 70l8-18 0 36z" fill="#5f9ea0" />
+          <path d="M58 44c12 4 20 16 22 28-14-2-22-14-22-28z" fill="#6fb0b5" />
+          <circle cx="48" cy="66" r="5.5" fill="#0a3540" />
+          <path d="M150 96c10 0 18-4 24-12M150 44c10 0 18 4 24 12" stroke="#5f9ea0" strokeWidth="2.5" fill="none" />
+        </svg>
+      )
+  }
+}

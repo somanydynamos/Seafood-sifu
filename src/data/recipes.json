@@ -1,0 +1,436 @@
+[
+  {
+    "id": "teochew-steamed-pomfret",
+    "name": "Teochew Steamed Pomfret",
+    "cuisine": "Teochew",
+    "difficulty": "Easy",
+    "prepTimeMinutes": 25,
+    "description": "A clean, comforting steam that lets the silver pomfret's delicate sweetness lead, with salted vegetable, tomato, sour plum and tofu for a gentle savoury-sour broth.",
+    "seafoodIds": ["silver-pomfret"],
+    "ingredients": [
+      { "name": "Whole silver pomfret, cleaned and scored", "amount": "1 (400–600 g)" },
+      { "name": "Teochew salted vegetable (kiam chai), rinsed and sliced", "amount": "60 g" },
+      { "name": "Soft tofu, cubed", "amount": "1 block" },
+      { "name": "Tomato, wedged", "amount": "1" },
+      { "name": "Sour plums", "amount": "2" },
+      { "name": "Ginger, julienned", "amount": "1 thumb" },
+      { "name": "Shiitake mushrooms, sliced", "amount": "3" },
+      { "name": "Light soy sauce", "amount": "1 tbsp" },
+      { "name": "Shaoxing wine", "amount": "1 tbsp" }
+    ],
+    "steps": [
+      "Pat the fish dry and lay it on a heatproof plate deep enough to hold the juices.",
+      "Scatter the salted vegetable, ginger, mushrooms, tomato, tofu and sour plums around and over the fish. Lightly crush the plums.",
+      "Drizzle over the soy sauce and wine.",
+      "Steam over rapidly boiling water for 8–10 minutes, until the flesh at the thickest part turns opaque and pulls from the bone.",
+      "Spoon the tangy broth over the fish and serve immediately with rice."
+    ],
+    "tip": "Don't oversteam — pomfret flesh dries out fast. Pull it the moment the centre turns opaque.",
+    "inspiredBy": "A Teochew home-cooking classic; similar to versions by The Burning Kitchen and Spice N Pans."
+  },
+  {
+    "id": "assam-fish-curry",
+    "name": "Assam (Tamarind) Fish Curry",
+    "cuisine": "Peranakan / Malay",
+    "difficulty": "Medium",
+    "prepTimeMinutes": 45,
+    "description": "A sour-spicy tamarind curry built on a fragrant rempah, perfect for firm red fish, batang steaks or a meaty fish head. Tangy, rich and made for rice.",
+    "seafoodIds": ["mangrove-red-snapper", "spanish-mackerel", "orange-spotted-grouper", "golden-snapper", "asian-seabass", "indian-mackerel"],
+    "ingredients": [
+      { "name": "Firm fish steaks or fish head", "amount": "600 g" },
+      { "name": "Tamarind pulp, soaked in 400 ml water and strained", "amount": "2 tbsp" },
+      { "name": "Dried chillies, soaked", "amount": "10" },
+      { "name": "Shallots", "amount": "8" },
+      { "name": "Garlic", "amount": "3 cloves" },
+      { "name": "Lemongrass", "amount": "2 stalks" },
+      { "name": "Belacan (toasted shrimp paste)", "amount": "1 tsp" },
+      { "name": "Ladyfingers (okra) and tomatoes", "amount": "a handful each" },
+      { "name": "Sugar and salt", "amount": "to taste" },
+      { "name": "Cooking oil", "amount": "4 tbsp" }
+    ],
+    "steps": [
+      "Blend the dried chillies, shallots, garlic, lemongrass and belacan into a smooth rempah.",
+      "Fry the rempah in oil over medium-low heat until the oil splits and it smells fragrant, 8–10 minutes.",
+      "Pour in the strained tamarind water and bring to a simmer. Season with sugar and salt to balance the sourness.",
+      "Add the okra and tomatoes, simmer 3 minutes, then slide in the fish.",
+      "Simmer gently until the fish is just cooked through, 6–8 minutes, basting rather than stirring so it doesn't break up. Rest 10 minutes before serving — the gravy deepens."
+    ],
+    "tip": "Use a firm fish like batang, red snapper or grouper so the pieces hold together in the gravy.",
+    "inspiredBy": "A Nonya assam pedas style curry, in the spirit of The Meatmen and local home recipes."
+  },
+  {
+    "id": "sambal-stingray",
+    "name": "BBQ Sambal Stingray",
+    "cuisine": "Singaporean Hawker",
+    "difficulty": "Medium",
+    "prepTimeMinutes": 40,
+    "description": "Smoky grilled stingray wing smothered in a thick, fiery sambal and finished with calamansi and chinchalok. The quintessential East Coast hawker supper.",
+    "seafoodIds": ["whip-stingray"],
+    "ingredients": [
+      { "name": "Stingray wing", "amount": "1 (400–600 g)" },
+      { "name": "Banana leaf", "amount": "1 large piece" },
+      { "name": "Sambal (dried chilli, shallots, garlic, belacan, blended and fried)", "amount": "5 tbsp" },
+      { "name": "Calamansi limes", "amount": "4" },
+      { "name": "Chinchalok (fermented shrimp), optional", "amount": "to serve" },
+      { "name": "Sliced shallots and cucumber", "amount": "to serve" }
+    ],
+    "steps": [
+      "Rinse the stingray wing and pat dry. Lay it on a softened banana leaf.",
+      "Spread a thick, even layer of sambal over both sides of the wing.",
+      "Grill over charcoal or in a hot oven/griddle, leaf and all, about 6–8 minutes a side, until the flesh flakes into strands along the cartilage.",
+      "Serve straight off the leaf with a squeeze of calamansi, raw shallots and chinchalok on the side."
+    ],
+    "tip": "The flesh is done when it peels cleanly off the cartilage in soft fibres — don't wait for browning.",
+    "inspiredBy": "The classic hawker-stall preparation; close to versions shared by The Meatmen."
+  },
+  {
+    "id": "sliced-fish-soup",
+    "name": "Sliced Fish Soup",
+    "cuisine": "Singaporean / Cantonese",
+    "difficulty": "Easy",
+    "prepTimeMinutes": 30,
+    "description": "A light, milky-sweet broth with tender slices of batang, tomato, lettuce and a hit of ginger — a hawker-centre comfort bowl you can make cleaner at home.",
+    "seafoodIds": ["spanish-mackerel", "threadfin"],
+    "ingredients": [
+      { "name": "Batang (Spanish mackerel) fillet, thinly sliced", "amount": "300 g" },
+      { "name": "Ginger, sliced", "amount": "1 thumb" },
+      { "name": "Tomato, wedged", "amount": "1" },
+      { "name": "Lettuce or napa cabbage", "amount": "a handful" },
+      { "name": "Anchovy or chicken stock", "amount": "800 ml" },
+      { "name": "Evaporated milk (optional, for the 'milky' version)", "amount": "3 tbsp" },
+      { "name": "Light soy, white pepper, sesame oil", "amount": "to taste" },
+      { "name": "Cornflour", "amount": "1 tsp" }
+    ],
+    "steps": [
+      "Toss the fish slices with a little cornflour, white pepper and sesame oil; set aside.",
+      "Bring the stock to a simmer with the ginger and tomato. Season with light soy.",
+      "Add the greens and let them wilt, then turn the heat to low.",
+      "Slip in the fish slices and poach gently for 1–2 minutes, just until opaque — do not boil hard or they'll toughen.",
+      "Stir in evaporated milk if using, and finish with white pepper. Serve over rice or thick bee hoon."
+    ],
+    "tip": "Slice the fish across the grain and poach off a gentle simmer so the pieces stay silky.",
+    "inspiredBy": "A home version of the hawker 'sliced fish soup', similar to Spice N Pans."
+  },
+  {
+    "id": "ginger-scallion-threadfin",
+    "name": "Cantonese Steamed Threadfin with Ginger & Scallion",
+    "cuisine": "Cantonese",
+    "difficulty": "Easy",
+    "prepTimeMinutes": 20,
+    "description": "The purest way to honour a premium fish: steamed threadfin dressed in hot oil, ginger, spring onion and a sweet-savoury soy. Restaurant results in 20 minutes.",
+    "seafoodIds": ["threadfin"],
+    "ingredients": [
+      { "name": "Threadfin steak or fillet", "amount": "400 g" },
+      { "name": "Ginger, half julienned, half sliced", "amount": "1 large thumb" },
+      { "name": "Spring onions, cut into lengths", "amount": "3" },
+      { "name": "Light soy sauce", "amount": "2 tbsp" },
+      { "name": "Water and sugar", "amount": "2 tbsp + 1 tsp" },
+      { "name": "Hot oil", "amount": "2 tbsp" },
+      { "name": "Coriander", "amount": "to garnish" }
+    ],
+    "steps": [
+      "Lay the sliced ginger and white parts of the spring onion on a plate and rest the fish on top so steam circulates underneath.",
+      "Steam over high heat 7–9 minutes, until just opaque. Pour away the watery liquid that collects.",
+      "Top the fish with the julienned ginger and green spring onion.",
+      "Warm the soy, water and sugar together and pour around the fish.",
+      "Heat the oil until smoking and pour it over the aromatics so they sizzle. Garnish with coriander."
+    ],
+    "tip": "Pour off the steaming liquid before saucing — it's the secret to a clean-tasting finish.",
+    "inspiredBy": "Classic Cantonese steamed fish technique."
+  },
+  {
+    "id": "chilli-crab",
+    "name": "Singapore Chilli Crab",
+    "cuisine": "Singaporean",
+    "difficulty": "Hard",
+    "prepTimeMinutes": 50,
+    "description": "The national dish: meaty mud crab in a sweet, savoury, gently spicy tomato-chilli gravy thickened with egg, made for mopping up with fried mantou.",
+    "seafoodIds": ["mud-crab"],
+    "ingredients": [
+      { "name": "Live mud crab, cleaned and chopped into sections", "amount": "1 kg" },
+      { "name": "Garlic and ginger, minced", "amount": "3 tbsp each" },
+      { "name": "Fresh red chilli + dried chilli paste", "amount": "4 tbsp" },
+      { "name": "Tomato ketchup and chilli sauce", "amount": "4 tbsp each" },
+      { "name": "Water or stock", "amount": "300 ml" },
+      { "name": "Egg, beaten", "amount": "1" },
+      { "name": "Sugar, light soy, cornflour slurry", "amount": "to taste" },
+      { "name": "Mantou buns, to serve", "amount": "6" }
+    ],
+    "steps": [
+      "Lightly fry or steam the crab pieces until the shells just turn orange; set aside.",
+      "Fry the garlic, ginger and chilli paste in oil until fragrant and the oil reddens.",
+      "Stir in the ketchup, chilli sauce, sugar and soy, then the water. Bring to a simmer and taste — it should be sweet, savoury and tangy.",
+      "Return the crab, cover and simmer 5–6 minutes so the meat cooks through and soaks up the gravy.",
+      "Thicken with a little cornflour slurry, then turn off the heat and stream in the beaten egg, stirring to make silky ribbons. Serve with mantou."
+    ],
+    "tip": "Crack the claws before saucing so the gravy gets inside, and add the egg off the heat for soft ribbons.",
+    "inspiredBy": "The Singapore hawker icon; in the spirit of The Meatmen and Spice N Pans."
+  },
+  {
+    "id": "black-pepper-crab",
+    "name": "Black Pepper Crab",
+    "cuisine": "Singaporean",
+    "difficulty": "Hard",
+    "prepTimeMinutes": 45,
+    "description": "The drier, punchier cousin of chilli crab — crab sections wok-tossed in a buttery, intensely peppery sauce that clings to every shell.",
+    "seafoodIds": ["mud-crab", "flower-crab"],
+    "ingredients": [
+      { "name": "Live crab, cleaned and chopped", "amount": "1 kg" },
+      { "name": "Coarsely cracked black pepper", "amount": "3 tbsp" },
+      { "name": "Butter", "amount": "60 g" },
+      { "name": "Garlic and ginger, minced", "amount": "3 tbsp each" },
+      { "name": "Curry leaves", "amount": "2 sprigs" },
+      { "name": "Oyster sauce, dark soy, sugar", "amount": "2 tbsp / 1 tsp / 1 tbsp" },
+      { "name": "Chilli padi, chopped (optional)", "amount": "2" }
+    ],
+    "steps": [
+      "Toast the cracked pepper in a dry wok until aromatic, then set aside.",
+      "Lightly fry the crab pieces until the shells turn orange; remove.",
+      "Melt the butter, fry the garlic, ginger, curry leaves and chilli until fragrant.",
+      "Add the toasted pepper, oyster sauce, dark soy and sugar; stir into a glossy paste.",
+      "Return the crab and toss over high heat until well coated and cooked through, 4–5 minutes. Serve at once."
+    ],
+    "tip": "Crack the pepper yourself and toast it — pre-ground pepper just can't deliver the same heat and perfume.",
+    "inspiredBy": "A zi char and seafood-restaurant staple."
+  },
+  {
+    "id": "cereal-prawns",
+    "name": "Butter Cereal Prawns",
+    "cuisine": "Singaporean Zi Char",
+    "difficulty": "Medium",
+    "prepTimeMinutes": 30,
+    "description": "Crisp prawns tumbled in a buttery, curry-leaf-scented cereal crumble with a whisper of chilli — sweet, savoury and impossible to stop eating.",
+    "seafoodIds": ["giant-tiger-prawn", "banana-prawn", "mantis-shrimp"],
+    "ingredients": [
+      { "name": "Prawns, shell on, feelers trimmed", "amount": "500 g" },
+      { "name": "Nestum / oat cereal", "amount": "1 cup" },
+      { "name": "Butter", "amount": "60 g" },
+      { "name": "Curry leaves", "amount": "3 sprigs" },
+      { "name": "Chilli padi, sliced", "amount": "3" },
+      { "name": "Sugar, salt, milk powder", "amount": "to taste" },
+      { "name": "Oil for frying", "amount": "for shallow frying" }
+    ],
+    "steps": [
+      "Pat the prawns very dry and shallow-fry until crisp and bright orange; drain.",
+      "In a clean wok, melt the butter and fry the curry leaves and chilli until fragrant and the leaves crisp.",
+      "Add the cereal with a pinch of sugar, salt and milk powder; toast gently until golden and sandy.",
+      "Return the prawns and toss until every piece is coated in the crunchy cereal. Serve immediately while crisp."
+    ],
+    "tip": "Keep the shells on — they crisp up and carry flavour, and they protect the sweet meat from drying out.",
+    "inspiredBy": "A zi char favourite, similar to The Meatmen's cereal prawns."
+  },
+  {
+    "id": "salted-egg-prawns",
+    "name": "Salted Egg Yolk Prawns",
+    "cuisine": "Singaporean Zi Char",
+    "difficulty": "Medium",
+    "prepTimeMinutes": 30,
+    "description": "Golden, grainy salted-egg sauce foaming with butter and curry leaves, clinging to crisp shell-on prawns. Rich, creamy and addictive.",
+    "seafoodIds": ["giant-tiger-prawn"],
+    "ingredients": [
+      { "name": "Tiger prawns, shell on", "amount": "500 g" },
+      { "name": "Salted egg yolks, steamed and mashed", "amount": "4" },
+      { "name": "Butter", "amount": "50 g" },
+      { "name": "Curry leaves", "amount": "3 sprigs" },
+      { "name": "Chilli padi, sliced", "amount": "2" },
+      { "name": "Evaporated milk", "amount": "3 tbsp" },
+      { "name": "Sugar and salt", "amount": "to taste" },
+      { "name": "Cornflour, for dusting", "amount": "2 tbsp" }
+    ],
+    "steps": [
+      "Dust the prawns lightly with cornflour and fry until crisp; drain.",
+      "Melt the butter and fry the curry leaves and chilli until fragrant.",
+      "Add the mashed salted egg yolks and stir until they foam up and smell nutty.",
+      "Splash in the evaporated milk with a little sugar to loosen into a creamy sauce.",
+      "Toss the prawns through until fully coated. Serve straight away."
+    ],
+    "tip": "Let the yolks foam in the butter before adding liquid — that foaming stage is where the flavour develops.",
+    "inspiredBy": "The ubiquitous zi char salted egg treatment."
+  },
+  {
+    "id": "sambal-sotong",
+    "name": "Sambal Sotong",
+    "cuisine": "Malay / Peranakan",
+    "difficulty": "Medium",
+    "prepTimeMinutes": 35,
+    "description": "Springy squid or cuttlefish in a glossy, sweet-spicy sambal slicked with tamarind and onions — a rice-disappearing dish in the best way.",
+    "seafoodIds": ["bigfin-reef-squid", "pharaoh-cuttlefish", "day-octopus"],
+    "ingredients": [
+      { "name": "Squid or cuttlefish, cleaned and scored", "amount": "500 g" },
+      { "name": "Dried chillies, soaked", "amount": "10" },
+      { "name": "Shallots and garlic", "amount": "8 / 3" },
+      { "name": "Belacan", "amount": "1 tsp" },
+      { "name": "Tamarind paste", "amount": "1 tbsp" },
+      { "name": "Onion, sliced", "amount": "1" },
+      { "name": "Sugar and salt", "amount": "to taste" }
+    ],
+    "steps": [
+      "Blend the chillies, shallots, garlic and belacan into a rempah.",
+      "Fry the rempah in oil over medium heat until the oil splits and it darkens, 8–10 minutes.",
+      "Stir in the tamarind paste and sugar; taste for a sweet-sour-spicy balance.",
+      "Add the sliced onion and cook until soft, then turn the heat to high.",
+      "Toss in the squid and stir-fry just 2–3 minutes until it curls and turns opaque. Don't overcook or it goes rubbery."
+    ],
+    "tip": "Score the squid in a crosshatch and cook it fast over high heat so it curls prettily and stays tender.",
+    "inspiredBy": "A Malay-Peranakan home-style sambal dish."
+  },
+  {
+    "id": "orh-luak-oyster-omelette",
+    "name": "Orh Luak (Oyster Omelette)",
+    "cuisine": "Teochew / Hokkien",
+    "difficulty": "Medium",
+    "prepTimeMinutes": 25,
+    "description": "Crispy-edged, gooey-centred sweet potato starch omelette studded with plump oysters, finished with garlic chilli sauce. Pure hawker nostalgia.",
+    "seafoodIds": ["pacific-oyster"],
+    "ingredients": [
+      { "name": "Small fresh oysters, rinsed", "amount": "200 g" },
+      { "name": "Sweet potato starch", "amount": "4 tbsp" },
+      { "name": "Water", "amount": "150 ml" },
+      { "name": "Eggs", "amount": "3" },
+      { "name": "Garlic, minced", "amount": "2 cloves" },
+      { "name": "Fish sauce and white pepper", "amount": "to taste" },
+      { "name": "Spring onion and coriander", "amount": "to garnish" },
+      { "name": "Garlic-chilli sauce, to serve", "amount": "to taste" }
+    ],
+    "steps": [
+      "Whisk the sweet potato starch with the water into a thin batter.",
+      "Heat plenty of oil in a wok, fry the garlic, then pour in the starch batter and let it set and crisp at the edges.",
+      "Crack the eggs over the top, break the yolks and let them set into the crispy pancake.",
+      "Push everything aside, add the oysters and a splash of fish sauce, then fold together so the oysters stay just-cooked and juicy.",
+      "Plate with the crispy bits up, garnish, and serve with garlic-chilli sauce."
+    ],
+    "tip": "Add the oysters near the very end — they only need a minute, and overcooking shrinks and toughens them.",
+    "inspiredBy": "The hawker oyster omelette, Teochew/Hokkien style."
+  },
+  {
+    "id": "stir-fried-cockles",
+    "name": "Stir-fried Cockles with Kang Kong",
+    "cuisine": "Singaporean Zi Char",
+    "difficulty": "Easy",
+    "prepTimeMinutes": 20,
+    "description": "Just-blanched blood cockles tossed with water spinach in a punchy sambal-belacan — quick, briny and deeply satisfying.",
+    "seafoodIds": ["blood-cockle", "manila-clam"],
+    "ingredients": [
+      { "name": "Blood cockles, shelled (blanched 15 sec)", "amount": "300 g" },
+      { "name": "Kang kong (water spinach), cut", "amount": "1 large bunch" },
+      { "name": "Sambal belacan", "amount": "2 tbsp" },
+      { "name": "Garlic, minced", "amount": "3 cloves" },
+      { "name": "Fermented soybean paste (taucheo)", "amount": "1 tsp" },
+      { "name": "Sugar, to balance", "amount": "1 tsp" }
+    ],
+    "steps": [
+      "Blanch the cockles in just-boiled water for 10–20 seconds, then shell them, keeping any juice.",
+      "Get a wok smoking hot. Fry the garlic, sambal and taucheo until fragrant.",
+      "Add the kang kong stems first, then the leaves, and toss over high heat until just wilted.",
+      "Add the cockles and their juice with a pinch of sugar, toss for 20–30 seconds to warm through, and serve immediately."
+    ],
+    "tip": "Cockles cook in seconds — they go in last, just to warm through, or they turn rubbery and dry.",
+    "inspiredBy": "A hawker-style sambal kang kong with cockles."
+  },
+  {
+    "id": "garlic-steamed-lala",
+    "name": "Garlic & Wine Steamed Lala",
+    "cuisine": "Singaporean Zi Char",
+    "difficulty": "Easy",
+    "prepTimeMinutes": 20,
+    "description": "Clams (or mussels and razor clams) steamed open in a fragrant broth of garlic, ginger, Chinese wine and glass noodles that soak up all the sweetness.",
+    "seafoodIds": ["manila-clam", "green-mussel", "razor-clam"],
+    "ingredients": [
+      { "name": "Lala clams (or mussels / razor clams), purged", "amount": "600 g" },
+      { "name": "Glass noodles (tang hoon), soaked", "amount": "1 bundle" },
+      { "name": "Garlic, minced", "amount": "4 cloves" },
+      { "name": "Ginger, julienned", "amount": "1 thumb" },
+      { "name": "Shaoxing or Hua Diao wine", "amount": "3 tbsp" },
+      { "name": "Light soy and chicken stock", "amount": "1 tbsp + 150 ml" },
+      { "name": "Chilli padi and spring onion", "amount": "to taste" }
+    ],
+    "steps": [
+      "Soak the clams in salted water for an hour to purge sand, then drain.",
+      "Lay the soaked glass noodles in a heatproof bowl. Top with garlic, ginger and the clams.",
+      "Pour over the stock, wine and soy.",
+      "Steam over high heat 6–8 minutes, until the shells open and the noodles are slippery and flavour-soaked.",
+      "Discard any unopened shells, scatter with chilli and spring onion, and serve in the bowl."
+    ],
+    "tip": "Discard any shellfish that won't open after steaming — and any that were already open and won't close before cooking.",
+    "inspiredBy": "A zi char steamed-clam preparation."
+  },
+  {
+    "id": "sweet-sour-tilapia",
+    "name": "Sweet & Sour Crispy Tilapia",
+    "cuisine": "Cantonese / Singaporean",
+    "difficulty": "Medium",
+    "prepTimeMinutes": 35,
+    "description": "Whole tilapia fried until shatteringly crisp, then bathed in a glossy sweet-sour sauce with pineapple and peppers. A kid-friendly family favourite.",
+    "seafoodIds": ["nile-tilapia"],
+    "ingredients": [
+      { "name": "Whole tilapia, scored deeply", "amount": "1 (500–700 g)" },
+      { "name": "Cornflour, for dusting", "amount": "4 tbsp" },
+      { "name": "Tomato ketchup", "amount": "4 tbsp" },
+      { "name": "Rice vinegar and sugar", "amount": "3 tbsp each" },
+      { "name": "Pineapple chunks", "amount": "1 cup" },
+      { "name": "Capsicum and onion, diced", "amount": "1 each" },
+      { "name": "Cornflour slurry", "amount": "to thicken" }
+    ],
+    "steps": [
+      "Score the fish to the bone, pat dry and dust all over (and into the cuts) with cornflour.",
+      "Deep-fry in hot oil until golden and crisp, 6–8 minutes, then drain on a rack.",
+      "In a wok, fry the onion and capsicum briefly, then add ketchup, vinegar, sugar and a splash of water.",
+      "Add the pineapple, bring to a simmer and thicken with the slurry into a glossy sauce.",
+      "Pour the hot sauce over the crispy fish just before serving so it stays crunchy."
+    ],
+    "tip": "Sauce the fish at the table or right before eating — pour too early and the lovely crust goes soggy.",
+    "inspiredBy": "A classic Cantonese-style sweet and sour whole fish."
+  },
+  {
+    "id": "steamed-garoupa-soy",
+    "name": "Steamed Grouper in Superior Soy",
+    "cuisine": "Cantonese",
+    "difficulty": "Easy",
+    "prepTimeMinutes": 25,
+    "description": "Banquet-style steamed grouper (or snapper, seabass) with hot oil, ginger, spring onion and a sweet superior soy — the gold standard for a sweet, gelatinous fish.",
+    "seafoodIds": ["orange-spotted-grouper", "golden-snapper", "asian-seabass", "nile-tilapia"],
+    "ingredients": [
+      { "name": "Whole grouper or thick fillet", "amount": "500–700 g" },
+      { "name": "Ginger, sliced and julienned", "amount": "1 large thumb" },
+      { "name": "Spring onions, in lengths", "amount": "3" },
+      { "name": "Superior light soy (or light soy + sugar)", "amount": "3 tbsp" },
+      { "name": "Water", "amount": "2 tbsp" },
+      { "name": "Hot oil", "amount": "3 tbsp" },
+      { "name": "Coriander", "amount": "to garnish" }
+    ],
+    "steps": [
+      "Rest the fish on sliced ginger and spring onion whites on a plate so steam flows underneath.",
+      "Steam over high heat 8–10 minutes (longer for a whole fish), until the flesh just flakes at the bone.",
+      "Tip away the steaming liquid. Crown the fish with julienned ginger and green spring onion.",
+      "Warm the soy with the water and a touch of sugar; pour around the fish.",
+      "Pour smoking-hot oil over the aromatics to release their fragrance. Garnish and serve."
+    ],
+    "tip": "A whole grouper's head and skin are gelatinous and prized — steam just to set, never past flaky.",
+    "inspiredBy": "The classic Cantonese steamed fish, restaurant style."
+  },
+  {
+    "id": "crispy-fried-fish",
+    "name": "Crispy Fried Fish with Sambal",
+    "cuisine": "Malay / Singaporean",
+    "difficulty": "Easy",
+    "prepTimeMinutes": 25,
+    "description": "Small whole fish — ikan kuning, kembong or milkfish — marinated in turmeric and fried shatteringly crisp, served with a sharp sambal. Bones and all.",
+    "seafoodIds": ["yellowstripe-scad", "indian-mackerel", "milkfish"],
+    "ingredients": [
+      { "name": "Small whole fish, scaled and gutted", "amount": "500 g" },
+      { "name": "Ground turmeric", "amount": "1 tsp" },
+      { "name": "Salt", "amount": "1 tsp" },
+      { "name": "Oil for deep-frying", "amount": "for frying" },
+      { "name": "Sambal belacan or sambal chilli, to serve", "amount": "to taste" },
+      { "name": "Calamansi and sliced cucumber", "amount": "to serve" }
+    ],
+    "steps": [
+      "Pat the fish very dry, then rub inside and out with turmeric and salt. Rest 15 minutes.",
+      "Heat the oil until shimmering hot — a small piece of fish should sizzle immediately.",
+      "Fry the fish in batches without crowding, 4–6 minutes a side, until deeply golden and crisp.",
+      "Drain on a rack (not paper, so they stay crisp). Serve with sambal, calamansi and cucumber."
+    ],
+    "tip": "Dry fish and hot oil are everything — moisture makes the oil spit and the skin go soft instead of crisp.",
+    "inspiredBy": "The nasi-lemak-style fried fish found at Malay stalls everywhere."
+  }
+]
