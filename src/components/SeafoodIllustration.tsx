@@ -288,6 +288,67 @@ export default function SeafoodIllustration({ shape, className }: Props) {
           </g>
         </svg>
       )
+    case 'shark':
+      return (
+        <svg {...common}>
+          <path d="M24 72c20-16 54-26 104-24 14 1 26 5 34 14 10-8 22-14 34-16-4 10-6 20-4 30-12-2-24 2-34 8-8 7-20 11-34 12-50 2-84-8-104-24z" fill="#8a9aa6" />
+          <path d="M96 50c4-14 12-24 22-28-2 12 0 22 6 30-10-4-20-4-28-2z" fill="#73828d" />
+          <path d="M70 86c-2 10-8 18-18 24 14 0 24-4 30-12z" fill="#73828d" />
+          <path d="M150 66l8-6-2 12z" fill="#73828d" />
+          <circle cx="44" cy="68" r="4" fill="#1f2a30" />
+        </svg>
+      )
+    case 'flatfish':
+      return (
+        <svg {...common}>
+          <path d="M40 70c0-26 26-44 60-44s60 18 60 44-26 44-60 44-60-18-60-44z" fill="#9a8a6f" />
+          <path d="M58 70c0-18 22-30 42-30 4 8 4 52 0 60-20 0-42-12-42-30z" fill="#b3a487" />
+          <g fill="#6f6147">
+            <circle cx="86" cy="56" r="3" /><circle cx="100" cy="64" r="3" /><circle cx="112" cy="54" r="3" />
+            <circle cx="120" cy="72" r="3" /><circle cx="94" cy="82" r="3" />
+          </g>
+          <circle cx="120" cy="60" r="4" fill="#3a3017" />
+          <circle cx="132" cy="62" r="4" fill="#3a3017" />
+        </svg>
+      )
+    case 'urchin':
+      return (
+        <svg {...common}>
+          <g stroke="#3a2f4a" strokeWidth="3" strokeLinecap="round">
+            <path d="M100 70v-44M100 70v44M100 70h-46M100 70h46M100 70l-32-32M100 70l32 32M100 70l32-32M100 70l-32 32M100 70l-16-42M100 70l16 42M100 70l-42-16M100 70l42 16M100 70l42-16M100 70l-42 16M100 70l16-42M100 70l-16 42" />
+          </g>
+          <circle cx="100" cy="70" r="22" fill="#5e4a73" />
+          <circle cx="100" cy="70" r="10" fill="#e6a94d" />
+        </svg>
+      )
+    case 'jellyfish':
+      return (
+        <svg {...common}>
+          <path d="M52 60c0-22 22-38 48-38s48 16 48 38c0 8-4 12-12 12H64c-8 0-12-4-12-12z" fill="#e7b7c4" opacity="0.85" />
+          <path d="M60 72c4 8 12 8 16 0M84 72c4 8 12 8 16 0M108 72c4 8 12 8 16 0" stroke="#d290a3" strokeWidth="3" fill="none" />
+          <g stroke="#d49bb0" strokeWidth="3" fill="none" strokeLinecap="round">
+            <path d="M70 76c-4 18-8 30-4 42M86 78c-2 18-2 32 2 44M100 78c0 18 0 32 0 44M114 78c2 18 2 32-2 44M130 76c4 18 8 30 4 42" />
+          </g>
+        </svg>
+      )
+    case 'snail':
+      return (
+        <svg {...common}>
+          <path d="M70 96c-22 0-40-16-40-38S46 22 70 22c20 0 36 14 36 32 0 14-10 24-24 24-12 0-20-8-20-18s8-16 16-16 12 6 12 12" fill="none" stroke="#caa873" strokeWidth="12" strokeLinecap="round" />
+          <path d="M70 96c20 6 44 4 62-8-6-10-6-22 0-32-18-8-40-6-56 8" fill="#e3c894" />
+          <path d="M150 60c8-2 16 0 20 6-6 4-14 4-20 2z" fill="#d9b483" />
+          <circle cx="150" cy="58" r="3" fill="#7a5d30" />
+        </svg>
+      )
+    case 'geoduck':
+      return (
+        <svg {...common}>
+          <path d="M48 88c-2-14 8-24 24-24h24c14 0 24 10 22 24-2 10-12 16-24 16H70c-12 0-20-6-22-16z" fill="#d8c2a4" />
+          <path d="M96 64c14-30 34-44 64-46-6 14-8 30-30 44-10 6-22 6-34 2z" fill="#e6cdac" />
+          <path d="M150 20c8-2 14 0 18 6-6 4-12 4-18 2z" fill="#d3b58c" />
+          <path d="M58 86c18-6 44-6 60 0" stroke="#b89a6c" strokeWidth="2.5" fill="none" opacity="0.7" />
+        </svg>
+      )
     case 'fish':
     default:
       return (

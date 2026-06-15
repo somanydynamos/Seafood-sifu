@@ -5,6 +5,7 @@ export type SeafoodCategory =
   | 'Crustacean'
   | 'Cephalopod'
   | 'Shellfish'
+  | 'Other'
 
 export interface Seafood {
   id: string

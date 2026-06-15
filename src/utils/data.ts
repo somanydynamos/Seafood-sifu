@@ -21,6 +21,7 @@ export const CATEGORY_ORDER: SeafoodCategory[] = [
   'Crustacean',
   'Cephalopod',
   'Shellfish',
+  'Other',
 ]
 
 export const CATEGORY_META: Record<
@@ -40,8 +41,13 @@ export const CATEGORY_META: Record<
   },
   Shellfish: {
     label: 'Shellfish',
-    blurb: 'Clams, cockles, mussels & oysters',
+    blurb: 'Clams, cockles, mussels, oysters & snails',
     emoji: '🦪',
+  },
+  Other: {
+    label: 'Other',
+    blurb: 'Sea urchin, jellyfish & sea cucumber',
+    emoji: '🪼',
   },
 }
 

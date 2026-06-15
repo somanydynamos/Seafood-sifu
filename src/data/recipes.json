@@ -35,7 +35,7 @@
     "difficulty": "Medium",
     "prepTimeMinutes": 45,
     "description": "A sour-spicy tamarind curry built on a fragrant rempah, perfect for firm red fish, batang steaks or a meaty fish head. Tangy, rich and made for rice.",
-    "seafoodIds": ["mangrove-red-snapper", "spanish-mackerel", "orange-spotted-grouper", "golden-snapper", "asian-seabass", "indian-mackerel", "yellowfin-tuna", "black-pomfret", "catfish"],
+    "seafoodIds": ["mangrove-red-snapper", "spanish-mackerel", "orange-spotted-grouper", "golden-snapper", "asian-seabass", "indian-mackerel", "yellowfin-tuna", "black-pomfret", "catfish", "tiger-grouper", "red-emperor", "barracuda", "giant-trevally", "queenfish", "mahi-mahi", "kawakawa", "skipjack-tuna", "malabar-snapper", "spotted-mackerel", "crimson-snapper", "wahoo", "sea-catfish"],
     "ingredients": [
       { "name": "Firm fish steaks or fish head", "amount": "600 g" },
       { "name": "Tamarind pulp, soaked in 400 ml water and strained", "amount": "2 tbsp" },
@@ -90,7 +90,7 @@
     "difficulty": "Easy",
     "prepTimeMinutes": 30,
     "description": "A light, milky-sweet broth with tender slices of batang, tomato, lettuce and a hit of ginger — a hawker-centre comfort bowl you can make cleaner at home.",
-    "seafoodIds": ["spanish-mackerel", "threadfin", "atlantic-salmon", "snakehead", "threadfin-bream"],
+    "seafoodIds": ["spanish-mackerel", "threadfin", "atlantic-salmon", "snakehead", "threadfin-bream", "croaker", "spotted-mackerel", "wahoo"],
     "ingredients": [
       { "name": "Batang (Spanish mackerel) fillet, thinly sliced", "amount": "300 g" },
       { "name": "Ginger, sliced", "amount": "1 thumb" },
@@ -145,7 +145,7 @@
     "difficulty": "Hard",
     "prepTimeMinutes": 50,
     "description": "The national dish: meaty mud crab in a sweet, savoury, gently spicy tomato-chilli gravy thickened with egg, made for mopping up with fried mantou.",
-    "seafoodIds": ["mud-crab"],
+    "seafoodIds": ["mud-crab", "spanner-crab"],
     "ingredients": [
       { "name": "Live mud crab, cleaned and chopped into sections", "amount": "1 kg" },
       { "name": "Garlic and ginger, minced", "amount": "3 tbsp each" },
@@ -173,7 +173,7 @@
     "difficulty": "Hard",
     "prepTimeMinutes": 45,
     "description": "The drier, punchier cousin of chilli crab — crab sections wok-tossed in a buttery, intensely peppery sauce that clings to every shell.",
-    "seafoodIds": ["mud-crab", "flower-crab"],
+    "seafoodIds": ["mud-crab", "flower-crab", "spanner-crab"],
     "ingredients": [
       { "name": "Live crab, cleaned and chopped", "amount": "1 kg" },
       { "name": "Coarsely cracked black pepper", "amount": "3 tbsp" },
@@ -200,7 +200,7 @@
     "difficulty": "Medium",
     "prepTimeMinutes": 30,
     "description": "Crisp prawns tumbled in a buttery, curry-leaf-scented cereal crumble with a whisper of chilli — sweet, savoury and impossible to stop eating.",
-    "seafoodIds": ["giant-tiger-prawn", "banana-prawn", "mantis-shrimp", "whiteleg-prawn", "giant-freshwater-prawn", "slipper-lobster"],
+    "seafoodIds": ["giant-tiger-prawn", "banana-prawn", "mantis-shrimp", "whiteleg-prawn", "giant-freshwater-prawn", "slipper-lobster", "freshwater-crayfish", "greasyback-prawn"],
     "ingredients": [
       { "name": "Prawns, shell on, feelers trimmed", "amount": "500 g" },
       { "name": "Nestum / oat cereal", "amount": "1 cup" },
@@ -226,7 +226,7 @@
     "difficulty": "Medium",
     "prepTimeMinutes": 30,
     "description": "Golden, grainy salted-egg sauce foaming with butter and curry leaves, clinging to crisp shell-on prawns. Rich, creamy and addictive.",
-    "seafoodIds": ["giant-tiger-prawn", "whiteleg-prawn", "giant-freshwater-prawn", "slipper-lobster", "spiny-lobster"],
+    "seafoodIds": ["giant-tiger-prawn", "whiteleg-prawn", "giant-freshwater-prawn", "slipper-lobster", "spiny-lobster", "boston-lobster", "freshwater-crayfish", "greasyback-prawn"],
     "ingredients": [
       { "name": "Tiger prawns, shell on", "amount": "500 g" },
       { "name": "Salted egg yolks, steamed and mashed", "amount": "4" },
@@ -254,7 +254,7 @@
     "difficulty": "Medium",
     "prepTimeMinutes": 35,
     "description": "Springy squid or cuttlefish in a glossy, sweet-spicy sambal slicked with tamarind and onions — a rice-disappearing dish in the best way.",
-    "seafoodIds": ["bigfin-reef-squid", "pharaoh-cuttlefish", "day-octopus"],
+    "seafoodIds": ["bigfin-reef-squid", "pharaoh-cuttlefish", "day-octopus", "pencil-squid", "baby-octopus", "broadclub-cuttlefish"],
     "ingredients": [
       { "name": "Squid or cuttlefish, cleaned and scored", "amount": "500 g" },
       { "name": "Dried chillies, soaked", "amount": "10" },
@@ -309,7 +309,7 @@
     "difficulty": "Easy",
     "prepTimeMinutes": 20,
     "description": "Just-blanched blood cockles tossed with water spinach in a punchy sambal-belacan — quick, briny and deeply satisfying.",
-    "seafoodIds": ["blood-cockle", "manila-clam"],
+    "seafoodIds": ["blood-cockle", "manila-clam", "hard-clam", "wedge-clam", "mud-clam-lokan"],
     "ingredients": [
       { "name": "Blood cockles, shelled (blanched 15 sec)", "amount": "300 g" },
       { "name": "Kang kong (water spinach), cut", "amount": "1 large bunch" },
@@ -334,7 +334,7 @@
     "difficulty": "Easy",
     "prepTimeMinutes": 20,
     "description": "Clams (or mussels and razor clams) steamed open in a fragrant broth of garlic, ginger, Chinese wine and glass noodles that soak up all the sweetness.",
-    "seafoodIds": ["manila-clam", "green-mussel", "razor-clam", "scallop"],
+    "seafoodIds": ["manila-clam", "green-mussel", "razor-clam", "scallop", "surf-clam", "hard-clam", "blue-mussel", "wedge-clam"],
     "ingredients": [
       { "name": "Lala clams (or mussels / razor clams), purged", "amount": "600 g" },
       { "name": "Glass noodles (tang hoon), soaked", "amount": "1 bundle" },
@@ -388,7 +388,7 @@
     "difficulty": "Easy",
     "prepTimeMinutes": 25,
     "description": "Banquet-style steamed grouper (or snapper, seabass) with hot oil, ginger, spring onion and a sweet superior soy — the gold standard for a sweet, gelatinous fish.",
-    "seafoodIds": ["orange-spotted-grouper", "golden-snapper", "asian-seabass", "nile-tilapia", "atlantic-salmon", "snakehead", "marble-goby"],
+    "seafoodIds": ["orange-spotted-grouper", "golden-snapper", "asian-seabass", "nile-tilapia", "atlantic-salmon", "snakehead", "marble-goby", "coral-trout", "tiger-grouper", "red-emperor", "spangled-emperor", "parrotfish", "cobia", "grey-mullet", "sweetlips", "yellowfin-bream", "malabar-snapper", "crimson-snapper"],
     "ingredients": [
       { "name": "Whole grouper or thick fillet", "amount": "500–700 g" },
       { "name": "Ginger, sliced and julienned", "amount": "1 large thumb" },
@@ -415,7 +415,7 @@
     "difficulty": "Easy",
     "prepTimeMinutes": 25,
     "description": "Small whole fish — ikan kuning, kembong or milkfish — marinated in turmeric and fried shatteringly crisp, served with a sharp sambal. Bones and all.",
-    "seafoodIds": ["yellowstripe-scad", "indian-mackerel", "milkfish", "black-pomfret", "wolf-herring", "sardine", "anchovy", "threadfin-bream", "bigeye-scad", "catfish"],
+    "seafoodIds": ["yellowstripe-scad", "indian-mackerel", "milkfish", "black-pomfret", "wolf-herring", "sardine", "anchovy", "threadfin-bream", "bigeye-scad", "catfish", "rabbitfish", "tongue-sole", "goatfish", "fusilier", "croaker", "ponyfish", "needlefish", "bigeye", "lizardfish", "golden-threadfin-bream", "flounder", "hardtail-scad", "mackerel-scad", "spotted-scat"],
     "ingredients": [
       { "name": "Small whole fish, scaled and gutted", "amount": "500 g" },
       { "name": "Ground turmeric", "amount": "1 tsp" },
@@ -468,7 +468,7 @@
     "difficulty": "Easy",
     "prepTimeMinutes": 15,
     "description": "The ultimate beer-time nibble: dog conch simply boiled with aromatics, the sweet meat twisted out with a toothpick and dunked in a tangy chilli sauce.",
-    "seafoodIds": ["gong-gong"],
+    "seafoodIds": ["gong-gong", "mangrove-snail", "turban-shell", "areca-whelk"],
     "ingredients": [
       { "name": "Gong gong (dog conch), scrubbed", "amount": "500 g" },
       { "name": "Ginger, smashed", "amount": "2 slices" },
